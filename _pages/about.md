@@ -27,6 +27,20 @@ latest_posts:
 
 I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). My work bridges psychology and computational neuroscience, with a strong focus on Brain-Computer Interfaces (BCI). I am particularly interested in processing EEG signals for memory decoding and developing robust classification models for Alzheimer's disease and Mild Cognitive Impairment.
 
+<div class="row" style="margin-top: 2rem;">
+  <div class="col-sm-6">
+    <h3 style="margin-bottom: 1rem;">Research Interests</h3>
+    <p>🧠 <b>Computational Neuroscience</b>: Signal Processing and Brain Decoding.</p>
+    <p>💻 <b>BCI</b>: Developing Brain-Computer Interfaces.</p>
+    <p>🏥 <b>Health Tech</b>: Alzheimer’s and MCI classification models.</p>
+  </div>
+
+  <div class="col-sm-6">
+    <h3 style="margin-bottom: 1rem;">Education</h3>
+    <p><b>B.S. in Psychology</b><br>State University of Paraíba | 2024 - Present</p>
+  </div>
+</div>
+
 <hr>
 
 <div style="text-align: center; margin-top: 40px;">
