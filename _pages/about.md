@@ -33,7 +33,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     <h3 style="margin-bottom: 1rem;">Research Interests</h3>
     <p>🧠 <b>Neural Decoding</b>: EEG/fMRI signal processing and encoding models.</p>
     <p>💻 <b>BCI</b>: Developing Brain-Computer Interfaces.</p>
-    <p>🏥 <b>Health Tech</b>: Alzheimer’s and MCI classification models.</p>
+    <p>🏥 <b>Health Tech</b>: Alzheimer and MCI classification models.</p>
   </div>
 
   <div class="col-sm-6">
