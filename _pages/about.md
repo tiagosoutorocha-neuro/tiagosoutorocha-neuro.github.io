@@ -6,7 +6,7 @@ subtitle: ""
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: profile_1.jpg
   image_circular: true
   more_info: >
     <div style="text-align: center; margin-top: 15px;">
