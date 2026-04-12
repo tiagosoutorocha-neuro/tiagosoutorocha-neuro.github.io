@@ -6,7 +6,7 @@ subtitle: ""
 
 profile:
   align: left
-  image: tiago.jpg
+  image: prof_pic.jpg
   image_circular: true
   more_info: >
     <div style="text-align: center; margin-top: 15px;">
@@ -92,7 +92,5 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
   </p>
   <p style="font-size: 0.8em; color: gray; margin-top: 20px;">
     © 2026 Tiago Souto Rocha. All rights reserved.
-  </p>
-</div>
   </p>
 </div>
