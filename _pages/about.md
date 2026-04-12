@@ -11,7 +11,7 @@ profile:
   more_info: >
     <div style="text-align: center; margin-top: 15px;">
       <div style="font-size: 1.8rem; font-weight: 300; color: var(--global-text-color); margin-bottom: 5px;">Tiago Souto Rocha</div>
-      <div style="font-size: 1rem; line-height: 1.3; color: var(--global-text-color);">
+      <div style="font-size: 0.95rem; line-height: 1.3; color: var(--global-text-color);">
         Undergraduate Researcher in Computational Neuroscience<br>
         NUTES | UEPB
       </div>
@@ -39,7 +39,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
         </td>
         <td style="vertical-align: middle; border: none;">
           <b>Computational Neuroscience</b><br>
-          <span style="font-size: 0.9rem;">Signal Processing and Brain Decoding.</span>
+          <span style="font-size: 0.9rem;">EEG Signal Processing and Brain Decoding.</span>
         </td>
       </tr>
       <tr>
@@ -49,6 +49,15 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
         <td style="vertical-align: middle; border: none;">
           <b>BCI & IA</b><br>
           <span style="font-size: 0.9rem;">Developing Brain-Computer Interfaces.</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: middle; border: none;">
+          <img src="assets/img/icon_health.png" class="img-fluid" style="width: 45px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'">
+        </td>
+        <td style="vertical-align: middle; border: none;">
+          <b>Health Tech</b><br>
+          <span style="font-size: 0.9rem;">Alzheimer and MCI Classification Models.</span>
         </td>
       </tr>
     </table>
