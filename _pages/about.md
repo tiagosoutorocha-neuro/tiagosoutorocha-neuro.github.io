@@ -16,7 +16,7 @@ profile:
         NUTES | UEPB
       </div>
     </div>
-  
+
 selected_papers: false
 social: false
 
