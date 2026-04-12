@@ -28,25 +28,71 @@ latest_posts:
 
 I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). My work bridges psychology and computational neuroscience, with a strong focus on Brain-Computer Interfaces (BCI). I am particularly interested in processing EEG signals for memory decoding and developing robust classification models for Alzheimer's disease and Mild Cognitive Impairment.
 
-<div class="row" style="margin-top: 2rem;">
+<div class="row" style="margin-top: 2.5rem;">
+  
   <div class="col-sm-6">
-    <h3 style="margin-bottom: 1rem;">Research Interests</h3>
-    <p>🧠 <b>Neural Decoding</b>: EEG/fMRI signal processing and encoding models.</p>
-    <p>💻 <b>BCI</b>: Developing Brain-Computer Interfaces.</p>
-    <p>🏥 <b>Health Tech</b>: Alzheimer and MCI classification models.</p>
+    <h3 style="margin-bottom: 1.5rem;">Research Interests</h3>
+    <table class="table table-borderless table-sm">
+      <tr>
+        <td style="width: 20%; vertical-align: middle; border: none;">
+          <img src="assets/img/icon_brain.png" class="img-fluid" style="width: 45px;">
+        </td>
+        <td style="vertical-align: middle; border: none;">
+          <b>Computational Neuroscience</b><br>
+          <span style="font-size: 0.9rem;">Signal Processing and Brain Decoding.</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: middle; border: none;">
+          <img src="assets/img/icon_bci.png" class="img-fluid" style="width: 45px;">
+        </td>
+        <td style="vertical-align: middle; border: none;">
+          <b>BCI</b><br>
+          <span style="font-size: 0.9rem;">Developing Brain-Computer Interfaces.</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: middle; border: none;">
+          <img src="assets/img/icon_health.png" class="img-fluid" style="width: 45px;">
+        </td>
+        <td style="vertical-align: middle; border: none;">
+          <b>Health Tech</b><br>
+          <span style="font-size: 0.9rem;">Alzheimer’s and MCI classification models.</span>
+        </td>
+      </tr>
+    </table>
   </div>
 
   <div class="col-sm-6">
-    <h3 style="margin-bottom: 1rem;">Education</h3>
-    <p><b>B.S. in Psychology</b><br>State University of Paraíba | 2024 - Present</p>
-    <p><i>Undergraduate Researcher at NeuroComp / NUTES</i></p>
+    <h3 style="margin-bottom: 1.5rem;">Education</h3>
+    <table class="table table-borderless table-sm">
+      <tr>
+        <td style="width: 20%; vertical-align: middle; border: none;">
+          <img src="assets/img/uepb_logo.png" class="img-fluid" style="width: 55px;">
+        </td>
+        <td style="vertical-align: middle; border: none;">
+          <b>B.S. in Psychology</b><br>
+          <span style="font-size: 0.9rem;">State University of Paraíba | 2024 - Present</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: middle; border: none;">
+          <img src="assets/img/nutes_logo.png" class="img-fluid" style="width: 55px;">
+        </td>
+        <td style="vertical-align: middle; border: none;">
+          <b>Undergraduate Researcher</b><br>
+          <span style="font-size: 0.9rem;">NUTES / NeuroComp Research Group</span>
+        </td>
+      </tr>
+    </table>
   </div>
+
 </div>
 
-<hr>
+<hr style="margin-top: 3rem;">
 
 <div style="text-align: center; margin-top: 40px;">
-  <h3>Get in Touch!</h3>
+  <h3 style="font-weight: 400;">Get in Touch!</h3>
   <p>
     <a href="https://orcid.org/0009-0003-0287-1336">ORCID</a> &nbsp;|&nbsp; 
     <a href="https://github.com/tiagosoutorocha-neuro">GitHub</a> &nbsp;|&nbsp; 
