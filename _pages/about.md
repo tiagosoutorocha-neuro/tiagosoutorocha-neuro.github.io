@@ -66,7 +66,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="ML Benchmark">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">Machine Learning Benchmark for AD/MCI</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models for Alzheimer's classification.</p>
+            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models for Alzheimer's classification based on EEG signals.</p>
             <span class="badge badge-light">Jan 2026 – Present</span>
           </div>
         </div>
@@ -109,7 +109,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
     <div class="col-sm-4 mb-4">
       <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
-        <img src="assets/img/uchicago_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Chicago">
+        <img src="assets/img/uchicago_logo.webp" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Chicago">
         <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">The Neurobiology of Everyday Life</h6>
         <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>The University of Chicago</p>
       </div>
@@ -117,7 +117,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
     <div class="col-sm-4 mb-4">
       <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
-        <img src="assets/img/neuraskills_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Neura Skills">
+        <img src="assets/img/neuraskills_logo.webp" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Neura Skills">
         <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">EEG/ERP Analysis with Python and MNE</h6>
         <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>Neura Skills</p>
       </div>
