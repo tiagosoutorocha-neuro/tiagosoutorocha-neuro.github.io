@@ -61,18 +61,16 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
   <h3 style="text-align: center; margin-bottom: 2rem;">Featured Research Projects</h3>
   <div class="container" style="overflow-x: auto; white-space: nowrap; padding-bottom: 20px;">
     <div class="row flex-nowrap">
-      
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
           <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="ML Benchmark">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">Machine Learning Benchmark for AD/MCI</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models with Explainable AI for Alzheimer's classification with EEG signals.</p>
+            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models for Alzheimer's classification.</p>
             <span class="badge badge-light">Jan 2026 – Present</span>
           </div>
         </div>
       </div>
-
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
           <img src="assets/img/project_predictive.png" class="card-img-top" alt="Predictive Processing">
@@ -83,7 +81,6 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           </div>
         </div>
       </div>
-
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
           <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
@@ -94,8 +91,62 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+</div>
+
+<div style="margin-top: 4rem;">
+  <h3 style="text-align: center; margin-bottom: 2rem;">Advanced Coursework</h3>
+  <div class="row">
+    
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/duke_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Duke">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">Medical Neuroscience</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>Duke University</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uchicago_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Chicago">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">The Neurobiology of Everyday Life</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>The University of Chicago</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/neuraskills_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Neura Skills">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">EEG/ERP Analysis with Python and MNE</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>Neura Skills</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uepb_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" alt="UEPB">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">Neuroscience for Computational Neuroscience</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>State University of Paraíba</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uepb_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" alt="UEPB">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">Python for Computational Neuroscience</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>State University of Paraíba</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uepb_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" alt="UEPB">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">EEG Analysis with Python and Machine Learning</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>State University of Paraíba</p>
+      </div>
+    </div>
+
   </div>
 </div>
 
