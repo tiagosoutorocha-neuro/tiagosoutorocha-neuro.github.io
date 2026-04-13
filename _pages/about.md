@@ -106,7 +106,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>PsyArXiv</i> (2026)</div>
       <div style="margin-top: 8px;">
-        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PREPRINT</a>
+        <a href="https://doi.org/10.31234/osf.io/rdeub_v1" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PREPRINT (DOI)</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
@@ -135,10 +135,10 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <img src="https://cdn-icons-png.flaticon.com/512/3225/3225066.png" style="max-width: 65px;" alt="Paper Icon">
     </div>
     <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Os Avanços da Neurociência Cognitiva Computacional nos Últimos 10 Anos.</div>
+      <div style="font-size: 1rem; color: var(--global-text-color);">Compreendendo os Avanços na Neurociência Cognitiva Computacional nos Últimos 10 Anos: Uma Revisão de Escopo.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
       <div style="margin-top: 8px;">
-        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
+        <a href="https://www.even3.com.br/anais/ccnec2025/1268033-compreendendo-os-avancos-na-neurociencia-cognitiva-computacional-nos-ultimos-10-anos--uma-revisao-de-escopo/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
@@ -154,7 +154,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <div style="font-size: 1rem; color: var(--global-text-color);">Compreendendo os Limites das Redes Neurais Artificiais na Replicação da Cognição Biológica: Uma Revisão de Literatura.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
       <div style="margin-top: 8px;">
-        <a href="https://www.even3.com.br/anais/ccnec2025/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PROCEEDINGS</a>
+        <a href="https://www.even3.com.br/anais/ccnec2025/1268198-compreendendo-os-limites-das-redes-neurais-artificiais-na-replicacao-da-cognicao-biologica--uma-revisao-de-liter/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PROCEEDINGS</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
@@ -170,7 +170,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <div style="font-size: 1rem; color: var(--global-text-color);">Neurociência Cognitiva Computacional: Teoria e Aplicações.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
       <div style="margin-top: 8px;">
-        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
+        <a href="https://www.even3.com.br/anais/ccnec2025/1276937-neurociencia-cognitiva-computacional--teoria-e-aplicacoes/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
