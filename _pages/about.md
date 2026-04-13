@@ -63,7 +63,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
-          <img src="assets/img/project_alzheimer.jpg" class="card-img-top" alt="XAI Benchmark">
+          <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="XAI Benchmark">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">XAI Benchmark for AD/MCI</h6>
             <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models using Explainable AI for Alzheimer's classification.</p>
@@ -74,7 +74,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
-          <img src="assets/img/project_predictive.jpg" class="card-img-top" alt="Predictive Processing">
+          <img src="assets/img/project_predictive.png" class="card-img-top" alt="Predictive Processing">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">Predictive Processing Guide</h6>
             <p class="card-text" style="font-size: 0.85rem;">Drafting a tutorial article on the Predictive Processing theory and active inference.</p>
@@ -85,7 +85,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
-          <img src="assets/img/project_scoping.jpg" class="card-img-top" alt="Scoping Review">
+          <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">CCN Scoping Review</h6>
             <p class="card-text" style="font-size: 0.85rem;">Analyzing 10 years of advances in Computational Cognitive Neuroscience (2016-2026).</p>
