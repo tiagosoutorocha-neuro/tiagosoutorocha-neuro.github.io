@@ -96,6 +96,91 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 </div>
 
 <div style="margin-top: 4rem;">
+  <h3 style="text-align: center; margin-bottom: 2rem;">Featured Publications</h3>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/3225/3225066.png" style="max-width: 65px;" alt="Paper Icon">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>PsyArXiv</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PREPRINT</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      <b>Rocha, T.S.</b>, Brito, A.M., Lins, M.V.S., Barbosa, T.P., Alves, J.P.P., Maciel, E.Q., Paixão, L.M., Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/3225/3225066.png" style="max-width: 65px;" alt="Paper Icon">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">A Diferença Entre a Gagueira Psicogênica e a Gagueira do Neurodesenvolvimento: Uma Revisão de Literatura.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>I Congresso Nacional em Atenção à Saúde</i> (2025)</div>
+      <div style="margin-top: 8px;">
+        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">EXTENDED ABSTRACT</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      <b>Rocha, T.S.</b>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/3225/3225066.png" style="max-width: 65px;" alt="Paper Icon">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Os Avanços da Neurociência Cognitiva Computacional nos Últimos 10 Anos.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
+      <div style="margin-top: 8px;">
+        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      <b>Rocha, T.S.</b>, Lins, M.V.S., Brito, A.M., Barbosa, T.P., Maciel, E.Q.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/3225/3225066.png" style="max-width: 65px;" alt="Paper Icon">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Compreendendo os Limites das Redes Neurais Artificiais na Replicação da Cognição Biológica: Uma Revisão de Literatura.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
+      <div style="margin-top: 8px;">
+        <a href="https://www.even3.com.br/anais/ccnec2025/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PROCEEDINGS</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Oliveira, S.I.A., Silva, R.F., <b>Rocha, T.S.</b>, Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="https://cdn-icons-png.flaticon.com/512/3225/3225066.png" style="max-width: 65px;" alt="Paper Icon">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Neurociência Cognitiva Computacional: Teoria e Aplicações.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
+      <div style="margin-top: 8px;">
+        <a href="#" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Alves, J.P.P., <b>Rocha, T.S.</b>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top: 4rem;">
   <h3 style="text-align: center; margin-bottom: 2rem;">Advanced Coursework</h3>
   <div class="row">
     
