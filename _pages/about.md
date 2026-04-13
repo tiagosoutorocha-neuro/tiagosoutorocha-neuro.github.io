@@ -12,7 +12,7 @@ profile:
     <div style="text-align: center; margin-top: 15px;">
       <div style="font-size: 1.8rem; font-weight: 300; color: var(--global-text-color); margin-bottom: 5px;">Tiago Souto Rocha</div>
       <div style="font-size: 0.95rem; line-height: 1.3; color: var(--global-text-color);">
-        Undergraduate Researcher in conerencia<br>
+        Undergraduate Researcher in Computational Neuroscience<br>
         NUTES | UEPB
       </div>
     </div>
@@ -21,7 +21,7 @@ selected_papers: false
 social: false
 ---
 
-I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). As a member of the **conerencia Research Group**, I assist in leading the research line dedicated to the **classification of Alzheimer’s disease and Mild Cognitive Impairment (MCI)**. My work bridges psychology and conerencia, with a strong focus on Brain-Computer Interfaces (BCI), EEG signal processing for memory decoding, and the development of explainable classification models.
+I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). As a member of the **NeuroComp Research Group**, I assist in leading the research line dedicated to the **classification of Alzheimer’s disease and Mild Cognitive Impairment (MCI)**. My work bridges psychology and computational neuroscience, with a strong focus on Brain-Computer Interfaces (BCI), EEG signal processing for memory decoding, and the development of explainable classification models.
 
 <div class="row" style="margin-top: 2.5rem;">
   <div class="col-sm-6">
@@ -29,7 +29,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     <table class="table table-borderless table-sm">
       <tr>
         <td style="width: 20%; vertical-align: middle; border: none;"><img src="assets/img/icon_brain.png" class="img-fluid" style="width: 45px;"></td>
-        <td style="vertical-align: middle; border: none;"><b>conerencia</b><br><span style="font-size: 0.9rem;">Signal Processing and Brain Decoding.</span></td>
+        <td style="vertical-align: middle; border: none;"><b>Computational Neuroscience</b><br><span style="font-size: 0.9rem;">Signal Processing and Brain Decoding.</span></td>
       </tr>
       <tr>
         <td style="vertical-align: middle; border: none;"><img src="assets/img/icon_ai.png" class="img-fluid" style="width: 45px;"></td>
@@ -51,7 +51,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       </tr>
       <tr>
         <td style="vertical-align: middle; border: none;"><img src="assets/img/nutes_logo.png" class="img-fluid" style="width: 55px;"></td>
-        <td style="vertical-align: middle; border: none;"><b>Undergraduate Researcher</b><br><span style="font-size: 0.9rem;">NUTES / conerencia Research Group</span></td>
+        <td style="vertical-align: middle; border: none;"><b>Undergraduate Researcher</b><br><span style="font-size: 0.9rem;">NUTES / NeuroComp Research Group</span></td>
       </tr>
     </table>
   </div>
@@ -85,8 +85,8 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
         <div class="card h-100 shadow-sm" style="white-space: normal;">
           <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
           <div class="card-body">
-            <h6 class="card-title" style="font-weight: bold; color: #007bff;">conerencia Scoping Review</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Analyzing 10 years of advances in conerencia (2015-2025).</p>
+            <h6 class="card-title" style="font-weight: bold; color: #007bff;">CCN Scoping Review</h6>
+            <p class="card-text" style="font-size: 0.85rem;">Analyzing 10 years of advances in Computational Cognitive Neuroscience (2015-2025).</p>
             <span class="badge badge-light">March 2025 – Nov 2025</span>
           </div>
         </div>
@@ -100,10 +100,10 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/PsyArchive_logo.png" style="max-width: 65px;" alt="PsyArXiv Logo">
+      <img src="assets/img/PsyArchive_logo.PNG" style="max-width: 65px;" alt="PsyArXiv Logo">
     </div>
     <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in conerencia Over the Past Ten Years: A Scoping Review.</div>
+      <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>PsyArXiv</i> (2026)</div>
       <div style="margin-top: 8px;">
         <a href="https://doi.org/10.31234/osf.io/rdeub_v1" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PREPRINT (DOI)</a>
@@ -116,11 +116,11 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="conerencia Logo">
+      <img src="assets/img/ccnec_logo.JPEG" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Compreendendo os Avanços na conerencia nos Últimos 10 Anos: Uma Revisão de Escopo.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
+      <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past 10 Years: A Scoping Review.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>CCNEC Conference</i> (2025)</div>
       <div style="margin-top: 8px;">
         <a href="https://www.even3.com.br/anais/ccnec2025/1268033-compreendendo-os-avancos-na-neurociencia-cognitiva-computacional-nos-ultimos-10-anos--uma-revisao-de-escopo/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
       </div>
@@ -132,11 +132,11 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="conerencia Logo">
+      <img src="assets/img/ccnec_logo.JPEG" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Compreendendo os Limites das Redes Neurais Artificiais na Replicação da Cognição Biológica: Uma Revisão de Literatura.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
+      <div style="font-size: 1rem; color: var(--global-text-color);">Understanding the Limits of Artificial Neural Networks in Replicating Biological Cognition: A Literature Review.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>CCNEC Conference</i> (2025)</div>
       <div style="margin-top: 8px;">
         <a href="https://www.even3.com.br/anais/ccnec2025/1268198-compreendendo-os-limites-das-redes-neurais-artificiais-na-replicacao-da-cognicao-biologica--uma-revisao-de-liter/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PROCEEDINGS</a>
       </div>
@@ -148,11 +148,11 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="conerencia Logo">
+      <img src="assets/img/ccnec_logo.JPEG" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">conerencia: Teoria e Aplicações.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>Even3 Publications</i> (2025)</div>
+      <div style="font-size: 1rem; color: var(--global-text-color);">Computational Cognitive Neuroscience: Theory and Applications.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>CCNEC Conference</i> (2025)</div>
       <div style="margin-top: 8px;">
         <a href="https://www.even3.com.br/anais/ccnec2025/1276937-neurociencia-cognitiva-computacional--teoria-e-aplicacoes/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
       </div>
@@ -178,4 +178,58 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
     <div class="col-sm-4 mb-4">
       <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
-        <img src="assets/img/uchicago_logo.webp" style="height:
+        <img src="assets/img/uchicago_logo.webp" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Chicago">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">The Neurobiology of Everyday Life</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>The University of Chicago</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/neuraskills_logo.webp" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Neura Skills">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">EEG/ERP Analysis with Python and MNE</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>Neura Skills</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uepb_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" alt="UEPB">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">Neuroscience for Computational Neuroscience</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>State University of Paraíba</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uepb_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" alt="UEPB">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">Python for Computational Neuroscience</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>State University of Paraíba</p>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mb-4">
+      <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
+        <img src="assets/img/uepb_logo.png" style="height: 55px; object-fit: contain; margin-bottom: 15px;" alt="UEPB">
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">EEG Analysis with Python and Machine Learning</h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>State University of Paraíba</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<hr style="margin-top: 3rem;">
+
+<div style="text-align: center; margin-top: 40px;">
+  <h3 style="font-weight: 400;">Get in Touch!</h3>
+  <p>
+    <a href="https://orcid.org/0009-0003-0287-1336">ORCID</a> | 
+    <a href="https://github.com/tiagosoutorocha-neuro">GitHub</a> | 
+    <a href="http://lattes.cnpq.br/2236371058575114">Lattes</a> | 
+    <a href="mailto:tiago.r@aluno.uepb.edu.br">Email</a>
+  </p>
+  <p style="font-size: 0.8em; color: gray; margin-top: 20px;">
+    © 2026 Tiago Souto Rocha. All rights reserved.
+  </p>
+</div>
