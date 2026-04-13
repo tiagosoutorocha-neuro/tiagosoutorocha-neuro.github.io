@@ -41,6 +41,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       </tr>
     </table>
   </div>
+  
   <div class="col-sm-6">
     <h3 style="margin-bottom: 1.5rem;">Education</h3>
     <table class="table table-borderless table-sm">
@@ -63,10 +64,10 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       
       <div class="col-8 col-md-4">
         <div class="card h-100 shadow-sm" style="white-space: normal;">
-          <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="XAI Benchmark">
+          <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="ML Benchmark">
           <div class="card-body">
-            <h6 class="card-title" style="font-weight: bold; color: #007bff;">XAI Benchmark for AD/MCI</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models using Explainable AI for Alzheimer's classification.</p>
+            <h6 class="card-title" style="font-weight: bold; color: #007bff;">Machine Learning Benchmark for AD/MCI</h6>
+            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models with Explainable AI for Alzheimer's classification with EEG signals.</p>
             <span class="badge badge-light">Jan 2026 – Present</span>
           </div>
         </div>
@@ -77,8 +78,8 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           <img src="assets/img/project_predictive.png" class="card-img-top" alt="Predictive Processing">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">Predictive Processing Guide</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Drafting a tutorial article on the Predictive Processing theory and active inference.</p>
-            <span class="badge badge-light">Feb 2026 – Present</span>
+            <p class="card-text" style="font-size: 0.85rem;">A didactic guide to Predictive Processing, integrating thermodynamics and Bayesian inference with an open-source Python implementation.</p>
+            <span class="badge badge-light">Oct 2025 – Present</span>
           </div>
         </div>
       </div>
@@ -88,8 +89,8 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">CCN Scoping Review</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Analyzing 10 years of advances in Computational Cognitive Neuroscience (2016-2026).</p>
-            <span class="badge badge-light">March 2026 – Present</span>
+            <p class="card-text" style="font-size: 0.85rem;">Analyzing 10 years of advances in Computational Cognitive Neuroscience (2015-2025).</p>
+            <span class="badge badge-light">March 2025 – Nov 2025</span>
           </div>
         </div>
       </div>
