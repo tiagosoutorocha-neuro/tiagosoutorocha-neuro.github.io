@@ -100,7 +100,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/PsyArchive_logo.PNG" style="max-width: 65px;" alt="PsyArXiv Logo">
+      <img src="assets/img/PsyArchive_logo.png" style="max-width: 65px;" alt="PsyArXiv Logo">
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
@@ -116,7 +116,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.JPEG" style="max-width: 65px;" alt="Conference Logo">
+      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past 10 Years: A Scoping Review.</div>
@@ -132,7 +132,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.JPEG" style="max-width: 65px;" alt="Conference Logo">
+      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding the Limits of Artificial Neural Networks in Replicating Biological Cognition: A Literature Review.</div>
@@ -148,7 +148,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.JPEG" style="max-width: 65px;" alt="Conference Logo">
+      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Computational Cognitive Neuroscience: Theory and Applications.</div>
