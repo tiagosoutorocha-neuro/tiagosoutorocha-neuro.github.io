@@ -21,7 +21,7 @@ selected_papers: false
 social: false
 ---
 
-I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). As a member of the **NeuroComp Research Group**, I assist in leading the research line dedicated to the **classification of Alzheimer’s disease and Mild Cognitive Impairment (MCI)**. My work bridges psychology and computational neuroscience, with a strong focus on Brain-Computer Interfaces (BCI), EEG signal processing for memory decoding, and the development of explainable classification models.
+I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). As a member of the **NeuroComp Research Group**, I assist in leading the research line dedicated to the **classification of Alzheimer’s disease and Mild Cognitive Impairment (MCI)**. My work bridges psychology and computational neuroscience, with a strong focus on Brain-Computer Interfaces (BCI), EEG signal processing for memory decoding, and the development of robust, explainable classification models.
 
 <div class="row" style="margin-top: 2.5rem;">
   <div class="col-sm-6">
@@ -36,7 +36,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
         <td style="vertical-align: middle; border: none;"><b>BCI & IA</b><br><span style="font-size: 0.9rem;">Developing Brain-Computer Interfaces.</span></td>
       </tr>
       <tr>
-        <td style="vertical-align: middle; border: none;"><img src="assets/img/icon_health.png" class="img-fluid" style="width: 45px;"></td>
+        <td style="vertical-align: middle; border: none;"><img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" class="img-fluid" style="width: 45px;"></td>
         <td style="vertical-align: middle; border: none;"><b>Health Tech</b><br><span style="font-size: 0.9rem;">Alzheimer’s and MCI classification models.</span></td>
       </tr>
     </table>
