@@ -66,7 +66,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="ML Benchmark">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">Machine Learning Benchmark for AD/MCI</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Benchmarking ML and Deep Learning models for Alzheimer's classification based on EEG signals.</p>
+            <p class="card-text" style="font-size: 0.85rem;">Benchmarking Machine Learning and Deep Learning models for Alzheimer's classification based on EEG signals and Cognitive Tasks.</p>
             <span class="badge badge-light">Jan 2026 – Present</span>
           </div>
         </div>
@@ -86,7 +86,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">CCN Scoping Review</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Analyzing 10 years of advances in Computational Cognitive Neuroscience (2015-2025).</p>
+            <p class="card-text" style="font-size: 0.85rem;">Mapping a decade of evolution in computational cognitive neuroscience, a comprehensive scope review synthesizing advances, paradigm shifts, and the new frontiers of CCN..</p>
             <span class="badge badge-light">March 2025 – Nov 2025</span>
           </div>
         </div>
