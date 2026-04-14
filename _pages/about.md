@@ -119,7 +119,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="Conference Logo">
     </div>
     <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience: A Review.</div>
+      <div style="font-size: 1rem; color: var(--global-text-color);">Advances in Computational Cognitive Neuroscience: A Review.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>CCNEC Conference</i> (2025)</div>
       <div style="margin-top: 8px;">
         <a href="https://www.even3.com.br/anais/ccnec2025/1268033-compreendendo-os-avancos-na-neurociencia-cognitiva-computacional-nos-ultimos-10-anos--uma-revisao-de-escopo/" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">ABSTRACT</a>
