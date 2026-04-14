@@ -86,7 +86,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
           <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
           <div class="card-body">
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">CCN Scoping Review</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Mapping a decade of evolution in computational cognitive neuroscience, a comprehensive scope review synthesizing advances, paradigm shifts, and the new frontiers of CCN..</p>
+            <p class="card-text" style="font-size: 0.85rem;">Mapping a decade of evolution in computational cognitive neuroscience, a comprehensive scope review synthesizing advances, paradigm shifts, and the new frontiers of CCN.</p>
             <span class="badge badge-light">March 2025 – Nov 2025</span>
           </div>
         </div>
