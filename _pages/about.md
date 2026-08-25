@@ -21,7 +21,7 @@ selected_papers: false
 social: false
 ---
 
-I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES), where **I assist in leading the NeuroComp research line on Memory Applied to Aging**. Bridging cognitive psychology and computational neuroscience, I currently **combine EEG and machine learning to investigate predictive markers for Alzheimer’s and MCI**. As a long-term goal, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into clinical insights."
+I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES), where I assist in leading the NeuroComp research line on **Memory Applied to Aging**. Bridging cognitive psychology and computational neuroscience, I currently **combine EEG and machine learning to investigate predictive markers for Alzheimer’s and MCI**. As a long-term goal, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into clinical insights.
 
 <div class="row" style="margin-top: 2.5rem;">
   <div class="col-sm-6">
