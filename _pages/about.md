@@ -21,7 +21,8 @@ selected_papers: false
 social: false
 ---
 
-I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). As a member of the **NeuroComp Research Group**, I assist in leading the research line dedicated to the **classification of Alzheimer’s disease and Mild Cognitive Impairment (MCI)**. My work bridges psychology and computational neuroscience, with a strong focus on Brain-Computer Interfaces (BCI), EEG signal processing for memory decoding, and the development of explainable classification models.
+I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES). Within the NeuroComp Research Group, **I assist in leading the research line on Memory Applied to Normal and Pathological Aging**, focusing on the classification of Alzheimer’s disease and Mild Cognitive Impairment (MCI). My research bridges psychology and computational neuroscience to address the gap between theoretical modeling and clinical application. By combining EEG signal processing and machine learning approaches, I am currently investigating predictive markers for cognitive decline. Understanding how memory networks degrade in these pathological states serves as the foundation for my broader scientific vision. Ultimately, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into actionable and visually intuitive insights for healthcare professionals. 
+
 
 <div class="row" style="margin-top: 2.5rem;">
   <div class="col-sm-6">
