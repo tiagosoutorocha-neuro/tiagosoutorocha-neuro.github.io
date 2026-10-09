@@ -9,6 +9,10 @@ images:
     caption: "Real-time EEG signal check during a recording session"
   - src: news/cidade-madura-3.jpg
     caption: "EEG data collection with the NeuroComp team"
+# Public version of the presentation (individual participant data removed)
+links:
+  - label: PROJECT SLIDES (PDF)
+    url: /assets/pdf/cidade_madura_extension_slides.pdf
 ---
 
 We started data collection for **Cidade Madura**, an extension project on cognitive monitoring of older adults in community settings. At least 30 older adults will go through two cycles of cognitive assessment and wearable-EEG monitoring. The project also includes at least six educational and cognitive-stimulation activities for about 60 participants, focused on healthy aging and self-care.

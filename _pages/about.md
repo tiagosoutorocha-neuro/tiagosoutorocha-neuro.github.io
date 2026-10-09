@@ -98,9 +98,109 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 <div style="margin-top: 4rem;">
   <h3 style="text-align: center; margin-bottom: 2rem;">Featured Publications</h3>
 
+  <!-- Most recent first. 17th CCNEC: Sep 15-17, 2026 · Cognitive Computation acceptance: Sep 8, 2026 -->
+
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <div class="journal-badge" title="Cognitive Computation (Springer Nature)">Cogn.<br>Comput.</div>
+      <img src="assets/img/ccnec17_logo.png" style="max-width: 65px;" alt="17th CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <span class="award-pill award-pill-silver"><i class="fa-solid fa-trophy"></i> 2nd Place · Best Work Award</span>
+        <a href="assets/pdf/poster_rocha2026xai.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      <b>Rocha, T.S.</b>, Gouveia, G.S.M., Oliveira, S.I.A., Brito, A.M., Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec17_logo.png" style="max-width: 65px;" alt="17th CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Individualizing the Pre-Ictal Window for Machine Learning-Based Epileptic Seizure Prediction: A Study on Clinical and Wearable-Device EEG Data.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <span class="award-pill award-pill-gold"><i class="fa-solid fa-trophy"></i> 1st Place · Best Work Award</span>
+        <a href="assets/pdf/poster_valerio2026epilepsy.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Valério, D.P.S., Souto, S.F., Paixão, L.M., Figueiredo, J.A., <b>Rocha, T.S.</b>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec17_logo.png" style="max-width: 65px;" alt="17th CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Beyond Spectral Power: A Comparative Study of EEG Biomarker Categories Using Machine Learning for Alzheimer's Disease Screening.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <!-- Add the poster here when available: <a href="assets/pdf/poster_oliveira2026spectral.pdf" ...>POSTER</a> -->
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Oliveira, S.I.A., Souto, S.F., <b>Rocha, T.S.</b>, Gouveia, G.S.M., Paixão, L.M.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec17_logo.png" style="max-width: 65px;" alt="17th CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Sleep, Depressive Symptoms, and Cognitive Performance in Older Adults: A Possible Mediation Pathway.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <a href="assets/pdf/poster_brito2026sleep.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Brito, A.M., <b>Rocha, T.S.</b>, Alves, J.P.P., Souto, S.F., Santana, A.N.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec17_logo.png" style="max-width: 65px;" alt="17th CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Electroencephalography in the Detection of Alzheimer's Disease and Mild Cognitive Impairment: An Integrative Review.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <a href="assets/pdf/poster_alves2026eegreview.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Alves, J.P.P., Brito, A.M., <b>Rocha, T.S.</b>, Oliveira, S.I.A., Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec17_logo.png" style="max-width: 65px;" alt="17th CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">The Hippocampus as a Central Modulator in the Predictive Theory of Mind: An Integrative Review.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <a href="assets/pdf/poster_gouveia2026hippocampus.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Gouveia, G.S.M., <b>Rocha, T.S.</b>, Brito, A.M., Oliveira, S.I.A., Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/cogcomp_cover.jpg" style="max-width: 65px; border-radius: 3px;" class="z-depth-1" alt="Cognitive Computation journal cover">
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
@@ -111,40 +211,6 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
       <b>Rocha, T.S.</b>, Brito, A.M., Lins, M.V.S., Barbosa, T.P., Alves, J.P.P., Maciel, E.Q., Paixão, L.M., Souto, S.F.
-    </div>
-  </div>
-
-  <div class="row" style="margin-bottom: 2rem; align-items: center;">
-    <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="CCNEC logo">
-    </div>
-    <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
-      <div style="margin-top: 8px;">
-        <span class="award-pill award-pill-silver"><i class="fa-solid fa-trophy"></i> 2nd Place · Best Work Award</span>
-        <!-- When the poster PDF or proceedings link is ready, add a button here, e.g.:
-        <a href="assets/pdf/xai_alzheimer_poster.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a> -->
-      </div>
-    </div>
-    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
-      <b>Rocha, T.S.</b>, Gouveia, G.S.M., Oliveira, S.I.A., Brito, A.M., Souto, S.F.
-    </div>
-  </div>
-
-  <div class="row" style="margin-bottom: 2rem; align-items: center;">
-    <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="CCNEC logo">
-    </div>
-    <div class="col-sm-7">
-      <div style="font-size: 1rem; color: var(--global-text-color);">Individualizing the Pre-Ictal Window for Machine Learning-Based Epileptic Seizure Prediction: A Study on Clinical and Wearable-Device EEG Data.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
-      <div style="margin-top: 8px;">
-        <span class="award-pill award-pill-gold"><i class="fa-solid fa-trophy"></i> 1st Place · Best Work Award</span>
-      </div>
-    </div>
-    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
-      Valério, D.P.S., Souto, S.F., Paixão, L.M., Figueiredo, J.A., <b>Rocha, T.S.</b>
     </div>
   </div>
 

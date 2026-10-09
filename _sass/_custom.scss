@@ -282,7 +282,7 @@ html[data-theme="dark"] {
 }
 
 // ---------------------------------------------------------------------------
-// Text badges for venues/registries without a logo (home page)
+// Text badge for registries without a logo (home page)
 // ---------------------------------------------------------------------------
 
 .registry-badge {
@@ -300,17 +300,4 @@ html[data-theme="dark"] {
   i {
     font-size: 1.1rem;
   }
-}
-
-.journal-badge {
-  display: inline-block;
-  width: 65px;
-  padding: 0.55rem 0.2rem;
-  border-radius: 0.4rem;
-  background: #0b5a8f;
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 700;
-  line-height: 1.15;
-  text-align: center;
 }
