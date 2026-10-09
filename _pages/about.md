@@ -15,13 +15,19 @@ profile:
         Undergraduate Researcher in Computational Neuroscience<br>
         NUTES | UEPB
       </div>
+      <div class="profile-emails">
+        <a href="mailto:tiago.r@aluno.uepb.edu.br"><i class="fa-solid fa-envelope"></i> tiago.r@aluno.uepb.edu.br</a>
+        <span class="email-label">primary</span>
+        <a href="mailto:tiagosoutorocha@gmail.com"><i class="fa-regular fa-envelope"></i> tiagosoutorocha@gmail.com</a>
+        <span class="email-label">secondary</span>
+      </div>
     </div>
 
 selected_papers: false
 social: false
 ---
 
-I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES), where I assist in leading the NeuroComp research line on **Memory Applied to Aging**. Bridging cognitive psychology and computational neuroscience, I currently **combine EEG and machine learning to investigate predictive markers for Alzheimer and MCI**. As a long-term goal, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into clinical insights for aging.
+I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES), where I assist in leading the [NeuroComp](https://github.com/neurocomp-nutes) research line on **Memory Applied to Aging**. Bridging cognitive psychology and computational neuroscience, I currently **combine EEG and machine learning to investigate predictive markers for Alzheimer and MCI**. As a long-term goal, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into clinical insights for aging.
 
 <div class="row" style="margin-top: 2.5rem;">
   <div class="col-sm-6">
@@ -46,12 +52,12 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     <h3 style="margin-bottom: 1.5rem;">Education</h3>
     <table class="table table-borderless table-sm">
       <tr>
-        <td style="width: 20%; vertical-align: middle; border: none;"><img src="assets/img/uepb_logo.png" class="img-fluid" style="width: 55px;"></td>
-        <td style="vertical-align: middle; border: none;"><b>B.S. in Psychology</b><br><span style="font-size: 0.9rem;">State University of Paraíba | 2024 - Present</span></td>
+        <td style="width: 20%; vertical-align: middle; border: none;"><a href="https://centros.uepb.edu.br/ccbs/" target="_blank" rel="noopener noreferrer"><img src="assets/img/uepb_logo.png" class="img-fluid" style="width: 55px;" alt="UEPB"></a></td>
+        <td style="vertical-align: middle; border: none;"><b><a href="https://centros.uepb.edu.br/ccbs/" target="_blank" rel="noopener noreferrer" class="edu-link">B.S. in Psychology</a></b><br><span style="font-size: 0.9rem;">State University of Paraíba | 2024 - Present</span></td>
       </tr>
       <tr>
-        <td style="vertical-align: middle; border: none;"><img src="assets/img/nutes_logo.png" class="img-fluid" style="width: 55px;"></td>
-        <td style="vertical-align: middle; border: none;"><b>Undergraduate Researcher</b><br><span style="font-size: 0.9rem;">NUTES / NeuroComp Research Group</span></td>
+        <td style="vertical-align: middle; border: none;"><a href="https://nutes.uepb.edu.br/#" target="_blank" rel="noopener noreferrer"><img src="assets/img/nutes_logo.png" class="img-fluid" style="width: 55px;" alt="NUTES"></a></td>
+        <td style="vertical-align: middle; border: none;"><b><a href="https://nutes.uepb.edu.br/#" target="_blank" rel="noopener noreferrer" class="edu-link">Undergraduate Researcher</a></b><br><span style="font-size: 0.9rem;"><a href="https://nutes.uepb.edu.br/#" target="_blank" rel="noopener noreferrer" class="edu-sub-link">NUTES</a> / <a href="https://github.com/neurocomp-nutes" target="_blank" rel="noopener noreferrer" class="edu-sub-link">NeuroComp Research Group</a></span></td>
       </tr>
     </table>
   </div>
@@ -217,7 +223,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
-      <b>Rocha, T.S.</b>, Brito, A.M., Lins, M.V.S., Barbosa, T.P., Alves, J.P.P., Maciel, E.Q., Paixão, L.M., Souto, S.F.
+      <b>Rocha, T.S.</b>, Souto, S.F., Brito, A.M., Barbosa, T.P., Alves, J.P.P., Lins, M.V.S., Maciel, E.Q., Paixão, L.M.
     </div>
   </div>
 
@@ -356,15 +362,15 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
 <hr style="margin-top: 3rem;">
 
-<div style="text-align: center; margin-top: 40px;">
+<div class="get-in-touch">
   <h3 style="font-weight: 400;">Get in Touch!</h3>
-  <p>
-    <a href="https://orcid.org/0009-0003-0287-1336">ORCID</a> | 
-    <a href="https://github.com/tiagosoutorocha-neuro">GitHub</a> | 
-    <a href="http://lattes.cnpq.br/2236371058575114">Lattes</a> | 
-    <a href="mailto:tiago.r@aluno.uepb.edu.br">Email</a>
-  </p>
-  <p style="font-size: 0.8em; color: gray; margin-top: 20px;">
-    © 2026 Tiago Souto Rocha. All rights reserved.
-  </p>
+  <div class="contact-links">
+    <a href="https://orcid.org/0009-0003-0287-1336" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i> ORCID</a>
+    <a href="https://github.com/tiagosoutorocha-neuro" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://lattes.cnpq.br/2236371058575114" target="_blank" rel="noopener noreferrer"><i class="ai ai-lattes"></i> Lattes</a>
+  </div>
+  <div class="contact-emails">
+    <span><i class="fa-solid fa-envelope"></i> <a href="mailto:tiago.r@aluno.uepb.edu.br">tiago.r@aluno.uepb.edu.br</a> <span class="email-label">primary</span></span>
+    <span><i class="fa-regular fa-envelope"></i> <a href="mailto:tiagosoutorocha@gmail.com">tiagosoutorocha@gmail.com</a> <span class="email-label">secondary</span></span>
+  </div>
 </div>

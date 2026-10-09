@@ -408,3 +408,70 @@ html[data-theme="dark"] {
     font-size: 1.1rem;
   }
 }
+
+// ---------------------------------------------------------------------------
+// Contact: e-mails under the profile photo, "Get in Touch!" block, education links
+// ---------------------------------------------------------------------------
+
+.profile-emails {
+  margin-top: 0.75rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+
+  a {
+    display: block;
+    margin-top: 0.35rem;
+    overflow-wrap: anywhere;
+  }
+}
+
+.email-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.get-in-touch {
+  text-align: center;
+  margin-top: 40px;
+
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem 1.5rem;
+    margin: 0.75rem 0 1rem;
+    font-size: 1.05rem;
+
+    i {
+      margin-right: 0.25rem;
+    }
+  }
+
+  .contact-emails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem 1.5rem;
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+  }
+}
+
+.edu-link {
+  color: inherit;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+.edu-sub-link {
+  color: inherit;
+  text-decoration: underline dotted;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
