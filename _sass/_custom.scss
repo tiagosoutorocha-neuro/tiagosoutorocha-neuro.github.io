@@ -1,0 +1,283 @@
+/*******************************************************************************
+ * Site-specific components: news carousel, news gallery, awards, journal badge
+ ******************************************************************************/
+
+// ---------------------------------------------------------------------------
+// News carousel (_includes/news_carousel.liquid)
+// ---------------------------------------------------------------------------
+
+.news-carousel {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  background: #111;
+
+  .carousel-item {
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+  }
+
+  // Blurred copy of the photo fills the frame, so portrait and landscape
+  // photos both look good without cropping the subject.
+  .news-carousel-bg {
+    position: absolute;
+    inset: -30px;
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    object-fit: cover;
+    filter: blur(22px) brightness(0.5);
+    transform: scale(1.05);
+  }
+
+  .news-carousel-link {
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+
+  .news-carousel-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .news-carousel-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 4.5rem 4.5rem 2.6rem;
+    color: #fff;
+    text-align: left;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.6) 55%, rgba(0, 0, 0, 0) 100%);
+
+    p {
+      margin: 0.25rem 0 0;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.92);
+    }
+  }
+
+  .news-carousel-date {
+    display: block;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .news-carousel-title {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.3;
+
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0.75rem;
+
+    li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 4rem;
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item {
+      height: 340px;
+    }
+
+    .news-carousel-caption {
+      padding: 2.5rem 1rem 2.2rem;
+    }
+
+    .news-carousel-title {
+      font-size: 1rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 2.5rem;
+    }
+  }
+}
+
+.news-list-heading {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+// ---------------------------------------------------------------------------
+// News gallery inside each news post (_includes/news_gallery.liquid)
+// ---------------------------------------------------------------------------
+
+.news-gallery {
+  margin-top: 1.5rem;
+
+  .news-gallery-item {
+    margin: 0;
+
+    img,
+    video {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      background: #000;
+    }
+
+    video {
+      object-fit: contain;
+    }
+
+    figcaption {
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Awards (_includes/awards.liquid) and award pills on the home page
+// ---------------------------------------------------------------------------
+
+$award-gold: #c9a227;
+$award-silver: #8a96a3;
+$award-bronze: #b0743c;
+
+.award-card {
+  background-color: var(--global-card-bg-color);
+  border-top: 4px solid var(--global-theme-color);
+
+  &.award-gold {
+    border-top-color: $award-gold;
+    .award-icon {
+      color: $award-gold;
+    }
+  }
+
+  &.award-silver {
+    border-top-color: $award-silver;
+    .award-icon {
+      color: $award-silver;
+    }
+  }
+
+  &.award-bronze {
+    border-top-color: $award-bronze;
+    .award-icon {
+      color: $award-bronze;
+    }
+  }
+
+  .award-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .award-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+    padding-top: 0.15rem;
+    color: var(--global-theme-color);
+  }
+
+  .award-title {
+    font-weight: 700;
+    color: var(--global-text-color);
+  }
+
+  .award-event {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+
+  .award-logo {
+    margin-left: auto;
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 0.25rem;
+  }
+
+  .award-work {
+    font-size: 0.88rem;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+  }
+
+  .award-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+
+    a {
+      margin-left: auto;
+    }
+  }
+}
+
+.award-pill {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  vertical-align: middle;
+
+  &.award-pill-gold {
+    color: #a8841a;
+    background: rgba(201, 162, 39, 0.12);
+  }
+
+  &.award-pill-silver {
+    color: #6b7785;
+    background: rgba(138, 150, 163, 0.14);
+  }
+}
+
+html[data-theme="dark"] {
+  .award-pill-gold {
+    color: #e2c25a;
+  }
+  .award-pill-silver {
+    color: #b9c3cd;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Text badge for venues without a logo (home page "Featured Publications")
+// ---------------------------------------------------------------------------
+
+.journal-badge {
+  display: inline-block;
+  width: 65px;
+  padding: 0.55rem 0.2rem;
+  border-radius: 0.4rem;
+  background: #0b5a8f;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}

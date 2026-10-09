@@ -1,0 +1,74 @@
+<!--
+  Photo carousel built from the `images` list of every news item in _news/ (newest first).
+  Optional parameter: max (maximum number of slides), e.g. pass max=6 when including this file.
+-->
+{% assign carousel_news = site.news | reverse %}
+{% assign carousel_max = include.max | default: 100 %}
+{% assign slide_count = 0 %}
+{% for item in carousel_news %}
+  {% for img in item.images %}
+    {% assign slide_count = slide_count | plus: 1 %}
+  {% endfor %}
+{% endfor %}
+{% if slide_count > carousel_max %}{% assign slide_count = carousel_max %}{% endif %}
+
+{% if slide_count > 0 %}
+  <div id="newsCarousel" class="carousel slide news-carousel z-depth-1" data-ride="carousel" data-interval="6000" aria-label="News photos">
+    {% if slide_count > 1 %}
+      <ol class="carousel-indicators">
+        {% for i in (1..slide_count) %}
+          <li
+            data-target="#newsCarousel"
+            data-slide-to="{{ forloop.index0 }}"
+            {% if forloop.first %}
+              class="active"
+            {% endif %}
+          ></li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+
+    <div class="carousel-inner">
+      {% assign idx = 0 %}
+      {% for item in carousel_news %}
+        {% for img in item.images %}
+          {% if idx < slide_count %}
+            {% assign img_url = img.src | prepend: '/assets/img/' | relative_url %}
+            <div class="carousel-item{% if idx == 0 %} active{% endif %}">
+              <img class="news-carousel-bg" src="{{ img_url }}" alt="" aria-hidden="true" loading="lazy">
+              <a href="{{ item.url | relative_url }}" class="news-carousel-link">
+                <img
+                  class="news-carousel-img"
+                  src="{{ img_url }}"
+                  alt="{{ img.caption | default: item.title | escape }}"
+                  {% if idx > 0 %}
+                    loading="lazy"
+                  {% endif %}
+                >
+              </a>
+              <div class="news-carousel-caption">
+                <span class="news-carousel-date">{{ item.date | date: '%b %d, %Y' }}</span>
+                <a href="{{ item.url | relative_url }}" class="news-carousel-title">{{ item.title }}</a>
+                {% if img.caption %}
+                  <p>{{ img.caption }}</p>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+          {% assign idx = idx | plus: 1 %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+
+    {% if slide_count > 1 %}
+      <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    {% endif %}
+  </div>
+{% endif %}

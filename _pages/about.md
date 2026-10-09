@@ -19,6 +19,12 @@ profile:
 
 selected_papers: false
 social: false
+
+# Latest news on the home page (rendered inside the page body, see "Latest News" below)
+announcements:
+  enabled: false
+  scrollable: false
+  limit: 3
 ---
 
 I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES), where I assist in leading the NeuroComp research line on **Memory Applied to Aging**. Bridging cognitive psychology and computational neuroscience, I currently **combine EEG and machine learning to investigate predictive markers for Alzheimer and MCI**. As a long-term goal, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into clinical insights for aging.
@@ -54,6 +60,14 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
         <td style="vertical-align: middle; border: none;"><b>Undergraduate Researcher</b><br><span style="font-size: 0.9rem;">NUTES / NeuroComp Research Group</span></td>
       </tr>
     </table>
+  </div>
+</div>
+
+<div style="margin-top: 3.5rem;">
+  <h3 style="text-align: center; margin-bottom: 1.5rem;">Latest News</h3>
+  {% include news.liquid limit=true %}
+  <div style="text-align: right;">
+    <a href="{{ '/news/' | relative_url }}" style="font-size: 0.9rem;">All news and photos &rarr;</a>
   </div>
 </div>
 
@@ -100,17 +114,51 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
   <div class="row" style="margin-bottom: 2rem; align-items: center;">
     <div class="col-sm-2 text-center mb-3 mb-sm-0">
-      <img src="assets/img/PsyArchive_logo.png" style="max-width: 65px;" alt="PsyArXiv Logo">
+      <div class="journal-badge" title="Cognitive Computation (Springer Nature)">Cogn.<br>Comput.</div>
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>PsyArXiv</i> (2026)</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>Cognitive Computation</i> (2026) · accepted, in press</div>
       <div style="margin-top: 8px;">
         <a href="https://doi.org/10.31234/osf.io/rdeub_v1" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PREPRINT (DOI)</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
       <b>Rocha, T.S.</b>, Brito, A.M., Lins, M.V.S., Barbosa, T.P., Alves, J.P.P., Maciel, E.Q., Paixão, L.M., Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <span class="award-pill award-pill-silver"><i class="fa-solid fa-trophy"></i> 2nd Place · Best Work Award</span>
+        <!-- When the poster PDF or proceedings link is ready, add a button here, e.g.:
+        <a href="assets/pdf/xai_alzheimer_poster.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a> -->
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      <b>Rocha, T.S.</b>, Gouveia, G.S.M., Oliveira, S.I.A., Brito, A.M., Souto, S.F.
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <img src="assets/img/ccnec_logo.jpeg" style="max-width: 65px;" alt="CCNEC logo">
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">Individualizing the Pre-Ictal Window for Machine Learning-Based Epileptic Seizure Prediction: A Study on Clinical and Wearable-Device EEG Data.</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
+      <div style="margin-top: 8px;">
+        <span class="award-pill award-pill-gold"><i class="fa-solid fa-trophy"></i> 1st Place · Best Work Award</span>
+      </div>
+    </div>
+    <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
+      Valério, D.P.S., Souto, S.F., Paixão, L.M., Figueiredo, J.A., <b>Rocha, T.S.</b>
     </div>
   </div>
 
@@ -162,6 +210,15 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     </div>
   </div>
 
+</div>
+
+<div style="text-align: right; margin-top: -1rem;">
+  <a href="{{ '/publications/' | relative_url }}" style="font-size: 0.9rem;">All publications &rarr;</a>
+</div>
+
+<div style="margin-top: 4rem;">
+  <h3 style="text-align: center; margin-bottom: 2rem;">Awards &amp; Honors</h3>
+  {% include awards.liquid %}
 </div>
 
 <div style="margin-top: 4rem;">

@@ -1,0 +1,35 @@
+<!-- Awards & Honors cards. Data lives in _data/awards.yml -->
+{% if site.data.awards %}
+  <div class="row awards">
+    {% for award in site.data.awards %}
+      <div class="col-sm-6 mb-4">
+        <div class="card h-100 shadow-sm award-card award-{{ award.rank | default: 'other' }}">
+          <div class="card-body">
+            <div class="award-head">
+              <span class="award-icon"><i class="fa-solid fa-trophy"></i></span>
+              <div>
+                <div class="award-title">{{ award.title }}</div>
+                <div class="award-event">{{ award.event }} · {{ award.date | date: '%b %Y' }}</div>
+              </div>
+              {% if award.logo %}
+                <img class="award-logo" src="{{ award.logo | prepend: '/assets/img/' | relative_url }}" alt="">
+              {% endif %}
+            </div>
+            <p class="award-work">“{{ award.work }}”</p>
+            <div class="award-meta">
+              {% if award.role -%}
+                <span>{{ award.role }}</span>
+              {%- endif %}
+              {% if award.detail -%}
+                <span>{{ award.detail }}</span>
+              {%- endif %}
+              {% if award.url %}
+                <a href="{{ award.url | relative_url }}">Photos &amp; details &rarr;</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

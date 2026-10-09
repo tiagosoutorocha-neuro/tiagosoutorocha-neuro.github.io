@@ -1,0 +1,25 @@
+# Awards & Honors shown on the home page (newest first).
+# To add an award, copy one block and edit it.
+#   rank:   gold | silver | bronze | other   (controls the accent color)
+#   logo:   file name inside assets/img/
+#   url:    optional link (news post, certificate, proceedings...)
+
+- title: "1st Place, Best Work Award"
+  event: "17th Courses and Conferences on Neuroscience and Behavior (CCNEC)"
+  date: 2026-09-17
+  rank: gold
+  work: "Individualizing the Pre-Ictal Window for Machine Learning-Based Epileptic Seizure Prediction: A Study on Clinical and Wearable-Device EEG Data"
+  role: "Co-author"
+  detail: "Among 80 competing researchers"
+  logo: ccnec_logo.jpeg
+  url: /news/ccnec-17-awards/
+
+- title: "2nd Place, Best Work Award"
+  event: "17th Courses and Conferences on Neuroscience and Behavior (CCNEC)"
+  date: 2026-09-17
+  rank: silver
+  work: "Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography"
+  role: "First author"
+  detail: "Among 80 competing researchers"
+  logo: ccnec_logo.jpeg
+  url: /news/ccnec-17-awards/
