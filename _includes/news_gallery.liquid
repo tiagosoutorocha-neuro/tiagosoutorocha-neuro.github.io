@@ -1,0 +1,40 @@
+<!-- Photo (and optional video) gallery for a news detail page. Uses the `images` and `video` front matter. -->
+{% if page.images or page.video %}
+  <h5 class="news-gallery-heading">
+    Photos{% if page.video %} &amp; video{% endif %}
+  </h5>
+  <div class="row news-gallery">
+    {% if page.video %}
+      <div class="col-sm-6 col-md-4 mb-3">
+        <figure class="news-gallery-item">
+          <video
+            src="{{ page.video.src | prepend: '/assets/' | relative_url }}"
+            class="rounded z-depth-1"
+            controls
+            preload="metadata"
+            playsinline
+          ></video>
+          {% if page.video.caption %}
+            <figcaption>{{ page.video.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      </div>
+    {% endif %}
+    {% for img in page.images %}
+      <div class="col-sm-6 col-md-4 mb-3">
+        <figure class="news-gallery-item">
+          <img
+            src="{{ img.src | prepend: '/assets/img/' | relative_url }}"
+            alt="{{ img.caption | escape }}"
+            class="img-fluid rounded z-depth-1"
+            loading="lazy"
+            data-zoomable
+          >
+          {% if img.caption %}
+            <figcaption>{{ img.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

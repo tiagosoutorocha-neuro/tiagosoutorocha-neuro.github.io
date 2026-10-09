@@ -143,6 +143,7 @@
   .news-card-img {
     height: 190px;
     object-fit: cover;
+    object-position: center 25%;
     background: #000;
   }
 
@@ -165,6 +166,112 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 0.4rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Clickable cards (news and research projects): the whole card opens the
+// detail page through a .stretched-link; buttons inside stay clickable.
+// ---------------------------------------------------------------------------
+
+.clickable-card {
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .card-title a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .card-btn {
+    position: relative;
+    z-index: 2;
+  }
+
+  .card-more {
+    font-size: 0.8rem;
+    color: #007bff;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// News detail page (_layouts/news.liquid + _includes/news_gallery.liquid)
+// ---------------------------------------------------------------------------
+
+.news-post {
+  .news-post-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .news-gallery-heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .news-post-back {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+.news-gallery {
+  .news-gallery-item {
+    margin: 0;
+
+    img,
+    video {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      background: #000;
+    }
+
+    video {
+      object-fit: contain;
+    }
+
+    figcaption {
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Research project detail pages (_projects/)
+// ---------------------------------------------------------------------------
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 1.5rem;
+}
+
+.project-figure {
+  margin: 1.5rem 0;
+
+  img {
+    width: 100%;
+    border-radius: 0.4rem;
+  }
+
+  figcaption {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
   }
 }
 

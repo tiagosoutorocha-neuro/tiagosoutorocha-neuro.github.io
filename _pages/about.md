@@ -59,33 +59,40 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
 
 <div style="margin-top: 4rem;">
   <h3 style="text-align: center; margin-bottom: 2rem;">Featured Research Projects</h3>
+  <!-- Each card opens its project page (files in _projects/). -->
   <div class="container" style="overflow-x: auto; white-space: nowrap; padding-bottom: 20px;">
     <div class="row flex-nowrap">
       <div class="col-8 col-md-4">
-        <div class="card h-100 shadow-sm" style="white-space: normal;">
-          <img src="assets/img/project_alzheimer.png" class="card-img-top" alt="ML Benchmark">
+        <div class="card h-100 shadow-sm clickable-card" style="white-space: normal;">
+          <img src="assets/img/project_mci.jpg" class="card-img-top" alt="Multimodal MCI classification">
           <div class="card-body">
-            <h6 class="card-title" style="font-weight: bold; color: #007bff;">Machine Learning Benchmark for AD/MCI</h6>
-            <p class="card-text" style="font-size: 0.85rem;">Benchmarking Machine Learning and Deep Learning models for Alzheimer's classification based on EEG signals and Cognitive Tasks.</p>
-            <span class="badge badge-light">Jan 2026 – Present</span>
+            <h6 class="card-title" style="font-weight: bold; color: #007bff;">
+              <a href="{{ '/projects/multimodal-mci-classification/' | relative_url }}" class="stretched-link">Multimodal MCI Classification</a>
+            </h6>
+            <p class="card-text" style="font-size: 0.85rem;">Classifying mild cognitive impairment by combining EEG, heart rate variability, and cognitive and psychological tests.</p>
+            <span class="badge badge-light">2026 – Present</span>
           </div>
         </div>
       </div>
       <div class="col-8 col-md-4">
-        <div class="card h-100 shadow-sm" style="white-space: normal;">
-          <img src="assets/img/project_predictive.png" class="card-img-top" alt="Predictive Processing">
+        <div class="card h-100 shadow-sm clickable-card" style="white-space: normal;">
+          <img src="assets/img/project_connectivity.jpg" class="card-img-top" alt="EEG brain connectivity">
           <div class="card-body">
-            <h6 class="card-title" style="font-weight: bold; color: #007bff;">Predictive Processing Guide</h6>
-            <p class="card-text" style="font-size: 0.85rem;">A didactic guide to Predictive Processing, integrating thermodynamics and Bayesian inference with an open-source Python implementation.</p>
-            <span class="badge badge-light">Oct 2025 – Present</span>
+            <h6 class="card-title" style="font-weight: bold; color: #007bff;">
+              <a href="{{ '/projects/eeg-brain-connectivity/' | relative_url }}" class="stretched-link">EEG Brain Connectivity</a>
+            </h6>
+            <p class="card-text" style="font-size: 0.85rem;">Studying how EEG brain networks reorganize with aging, cognitive performance and psychological symptoms, using functional and directed connectivity.</p>
+            <span class="badge badge-light">2026 – Present</span>
           </div>
         </div>
       </div>
       <div class="col-8 col-md-4">
-        <div class="card h-100 shadow-sm" style="white-space: normal;">
+        <div class="card h-100 shadow-sm clickable-card" style="white-space: normal;">
           <img src="assets/img/project_scoping.png" class="card-img-top" alt="Scoping Review">
           <div class="card-body">
-            <h6 class="card-title" style="font-weight: bold; color: #007bff;">CCN Scoping Review</h6>
+            <h6 class="card-title" style="font-weight: bold; color: #007bff;">
+              <a href="{{ '/projects/ccn-scoping-review/' | relative_url }}" class="stretched-link">CCN Scoping Review</a>
+            </h6>
             <p class="card-text" style="font-size: 0.85rem;">Mapping a decade of evolution in computational cognitive neuroscience, a comprehensive scope review synthesizing advances, paradigm shifts, and the new frontiers of CCN.</p>
             <span class="badge badge-light">March 2025 – Nov 2025</span>
           </div>

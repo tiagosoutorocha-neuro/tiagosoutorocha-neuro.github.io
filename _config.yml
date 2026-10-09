@@ -154,8 +154,8 @@ collections:
     output: true
   news:
     defaults:
-      layout: post
-    output: false # news are shown only on the home page (News section), no separate pages
+      layout: news
+    output: true # each news item has its own page (_layouts/news.liquid); cards on the home page link to it
   projects:
     output: true
   teachings:
@@ -233,6 +233,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
 
 sass:
   style: compressed
