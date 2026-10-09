@@ -87,7 +87,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
             <h6 class="card-title" style="font-weight: bold; color: #007bff;">
               <a href="{{ '/projects/eeg-brain-connectivity/' | relative_url }}" class="stretched-link">EEG Brain Connectivity</a>
             </h6>
-            <p class="card-text" style="font-size: 0.85rem;">A research line on how brain regions communicate, measured with EEG: functional, directed and dynamic connectivity, applied to cognition, aging and disease.</p>
+            <p class="card-text" style="font-size: 0.85rem;">My research line on how brain regions communicate, measured with EEG: functional, directed and dynamic connectivity, applied to cognition, aging and disease.</p>
             <span class="badge badge-light">2026 – Present</span>
           </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EEG Brain Connectivity
-description: A research line on how brain regions communicate, measured with EEG, from connectivity methods to cognition, aging and disease.
+description: My research line on how brain regions communicate, measured with EEG, from connectivity methods to cognition, aging and disease.
 img: assets/img/project_connectivity.jpg
 importance: 3
 category: research
@@ -36,7 +36,7 @@ permalink: /projects/eeg-brain-connectivity/
 
 Cognition depends on how brain regions **coordinate their activity over time**, not only on what each region does on its own ([Fries, 2015](https://doi.org/10.1016/j.neuron.2015.09.034); [Bassett & Sporns, 2017](https://doi.org/10.1038/nn.4502)). EEG measures this coordination with millisecond resolution, at low cost and with portable equipment, so these interactions can be studied as they unfold, both in the laboratory and outside it.
 
-This research line brings together our work on **brain connectivity with EEG**. It is not tied to a single dataset or population. It covers **how to measure connectivity reliably** and **what connectivity reveals** about cognition, aging and disease, across resting-state and task recordings, laboratory and wearable systems, and public and in-house datasets.
+This is my research line on **brain connectivity with EEG**. It is not tied to a single dataset or population. It covers **how to measure connectivity reliably** and **what connectivity reveals** about cognition, aging and disease, across resting-state and task recordings, laboratory and wearable systems, and public and in-house datasets.
 
 <h4 id="themes">Research themes</h4>
 
@@ -44,7 +44,7 @@ This research line brings together our work on **brain connectivity with EEG**. 
   <div class="theme-card">
     <div class="theme-icon"><i class="fa-solid fa-wave-square"></i></div>
     <b>Methods: measuring connectivity well</b>
-    <p>Phase synchronization, cross-frequency coupling and directed, information-theoretic measures, plus dynamic connectivity. We focus on the classic pitfalls of scalp EEG: volume conduction, common reference, sample-size bias and statistical testing.</p>
+    <p>Phase synchronization, cross-frequency coupling and directed, information-theoretic measures, plus dynamic connectivity. I focus on the classic pitfalls of scalp EEG: volume conduction, common reference, sample-size bias and statistical testing.</p>
   </div>
   <div class="theme-card">
     <div class="theme-icon"><i class="fa-solid fa-brain"></i></div>
@@ -54,7 +54,7 @@ This research line brings together our work on **brain connectivity with EEG**. 
   <div class="theme-card">
     <div class="theme-icon"><i class="fa-solid fa-user-clock"></i></div>
     <b>Aging and disease: network signatures of decline</b>
-    <p>Resting-state EEG shows altered long-range coupling in MCI and Alzheimer's disease (<a href="https://doi.org/10.1016/j.ijpsycho.2015.02.008">Babiloni et al., 2016</a>), and network hubs may be especially vulnerable (<a href="https://doi.org/10.1038/nrn3801">Stam, 2014</a>). We study connectivity markers of decline and how well they generalize across sites (<a href="https://doi.org/10.1016/j.ijpsycho.2021.12.008">Prado et al., 2022</a>), in public datasets and community cohorts such as <a href="{{ '/news/cidade-madura-launch/' | relative_url }}">Cidade Madura</a>. In our <a href="{{ '/projects/multimodal-mci-classification/' | relative_url }}">CCNEC 2026 study</a>, phase-amplitude coupling was among the best single markers of Alzheimer's disease.</p>
+    <p>Resting-state EEG shows altered long-range coupling in MCI and Alzheimer's disease (<a href="https://doi.org/10.1016/j.ijpsycho.2015.02.008">Babiloni et al., 2016</a>), and network hubs may be especially vulnerable (<a href="https://doi.org/10.1038/nrn3801">Stam, 2014</a>). I study connectivity markers of decline and how well they generalize across sites (<a href="https://doi.org/10.1016/j.ijpsycho.2021.12.008">Prado et al., 2022</a>), in public datasets and community cohorts such as <a href="{{ '/news/cidade-madura-launch/' | relative_url }}">Cidade Madura</a>. In a <a href="{{ '/projects/multimodal-mci-classification/' | relative_url }}">CCNEC 2026 study</a> I co-authored, phase-amplitude coupling was among the best single markers of Alzheimer's disease.</p>
   </div>
   <div class="theme-card">
     <div class="theme-icon"><i class="fa-solid fa-heart-pulse"></i></div>
@@ -81,12 +81,12 @@ This research line brings together our work on **brain connectivity with EEG**. 
   <div class="pipeline-step" role="listitem"><span class="pipeline-num">6</span><b>Interpret</b><span>Relate to behavior, clinical scores and machine learning</span></div>
 </div>
 
-Our toolbox, with the reason for each method and its main limitation:
+My toolbox, with the reason for each method and its main limitation:
 
 <div class="table-responsive">
 <table class="table table-sm method-table">
   <thead>
-    <tr><th>Method family</th><th>Why we use it</th><th>Main limitation</th></tr>
+    <tr><th>Method family</th><th>Why I use it</th><th>Main limitation</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -118,13 +118,13 @@ Our toolbox, with the reason for each method and its main limitation:
 </table>
 </div>
 
-We follow published guidance on the main pitfalls of connectivity analysis (common reference, signal-to-noise ratio, volume conduction, common input and sample-size bias; [Bastos & Schoffelen, 2016](https://doi.org/10.3389/fnsys.2015.00175)), and we build our pipelines in Python with the open-source **MNE-Python** ecosystem ([Gramfort et al., 2013](https://doi.org/10.3389/fnins.2013.00267)).
+I follow published guidance on the main pitfalls of connectivity analysis (common reference, signal-to-noise ratio, volume conduction, common input and sample-size bias; [Bastos & Schoffelen, 2016](https://doi.org/10.3389/fnsys.2015.00175)), and I build my pipelines in Python with the open-source **MNE-Python** ecosystem ([Gramfort et al., 2013](https://doi.org/10.3389/fnins.2013.00267)).
 
 <h4 id="case-study">Case study: dynamic connectivity in aging</h4>
 
 To show what this approach reveals, here is one application of the research line: resting-state EEG from older adults in the **[Cidade Madura]({{ '/news/cidade-madura-launch/' | relative_url }})** community cohort, recorded with a **wearable 13-electrode headset** (AF3, F7, F3, FC5, T7, O1, O2, P8, T8, FC6, F4, F8, AF4; 78 electrode pairs). Connectivity was estimated with the **wPLI** in **artefact-free 4-second epochs**.
 
-We compared two individual recordings: **Case A**, the participant with the **highest MoCA score so far (24)**, and **Case B**, the participant with the **lowest (6)**. Both are shown on the **same color scale and axes**. Each animation steps through the **six artefact-free epochs** of a roughly 3-minute recording, from 9–13 s to 165–169 s.
+I compared two individual recordings: **Case A**, the participant with the **highest MoCA score so far (24)**, and **Case B**, the participant with the **lowest (6)**. Both are shown on the **same color scale and axes**. Each animation steps through the **six artefact-free epochs** of a roughly 3-minute recording, from 9–13 s to 165–169 s.
 
 <figure class="project-figure numbered-figure">
   <img src="{{ '/assets/img/projects/connectivity/1_wpli_matrix.gif' | relative_url }}" alt="Animated wPLI connectivity matrices in the alpha band for Case A (MoCA 24) and Case B (MoCA 6) across six 4-second epochs" loading="lazy">
@@ -153,7 +153,7 @@ We compared two individual recordings: **Case A**, the participant with the **hi
       <li>Both cases <b>start at similar levels</b> (theta ≈ 0.42 vs. 0.39; alpha ≈ 0.33 vs. 0.31; beta ≈ 0.25 vs. 0.23).</li>
       <li><b>Case A:</b> all bands <b>decline</b>, ending near theta 0.23, alpha 0.19 and beta 0.15.</li>
       <li><b>Case B:</b> <b>theta and alpha rise</b> (theta ≈ 0.49, alpha ≈ 0.36) while beta stays flat.</li>
-      <li>The difference <b>builds up over time</b> and is carried by the <b>slow rhythms</b>, the bands our <a href="{{ '/projects/multimodal-mci-classification/' | relative_url }}">preparatory studies</a> found most affected in Alzheimer's disease.</li>
+      <li>The difference <b>builds up over time</b> and is carried by the <b>slow rhythms</b>, the bands the <a href="{{ '/projects/multimodal-mci-classification/' | relative_url }}">preparatory studies</a> found most affected in Alzheimer's disease.</li>
     </ul>
   </div></div>
 </div>
@@ -175,7 +175,7 @@ We compared two individual recordings: **Case A**, the participant with the **hi
 </div>
 
 <div class="takeaway">
-  <b>Takeaway.</b> In this pair, the low-scoring case showed <b>rising slow-wave (theta and alpha) synchronization</b> and a <b>right-lateralized, frontal–occipital network</b>, while the high-scoring case's network loosened. This is consistent with our first exploratory analyses of the Cidade Madura data, in which lower cognitive performance came with a reorganization of connectivity and a marked change in alpha-band synchronization. Whether the pattern holds across the cohort is what this application will test.
+  <b>Takeaway.</b> In this pair, the low-scoring case showed <b>rising slow-wave (theta and alpha) synchronization</b> and a <b>right-lateralized, frontal–occipital network</b>, while the high-scoring case's network loosened. This is consistent with my first exploratory analyses of the Cidade Madura data, in which lower cognitive performance came with a reorganization of connectivity and a marked change in alpha-band synchronization. Whether the pattern holds across the cohort is what this application will test.
 </div>
 
 <h4 id="limitations">Case-study limitations</h4>
@@ -192,11 +192,11 @@ We compared two individual recordings: **Case A**, the participant with the **hi
 - **Brain–body:** EEG–HRV coupling from simultaneous recordings.
 - **Open science:** reproducible MNE-Python pipelines and tutorials.
 
-#### Team and contact
+#### Affiliation and contact
 
-**Tiago Souto Rocha** (lead of the research line) · [NeuroComp](https://github.com/neurocomp-nutes) research group, Center for Strategic Health Technologies ([NUTES](https://nutes.uepb.edu.br/#)), State University of Paraíba (UEPB), Campina Grande, Brazil.
+I develop this research line as part of my work in the [NeuroComp](https://github.com/neurocomp-nutes) research group at the Center for Strategic Health Technologies ([NUTES](https://nutes.uepb.edu.br/#)), State University of Paraíba (UEPB), Campina Grande, Brazil, together with the colleagues who co-author each study.
 
-Interested in collaborating, or in applying these methods to your data? Write to [tiago.r@aluno.uepb.edu.br](mailto:tiago.r@aluno.uepb.edu.br).
+Interested in collaborating, or in applying these methods to your data? Write to me at [tiago.r@aluno.uepb.edu.br](mailto:tiago.r@aluno.uepb.edu.br).
 
 **Ethics and data.** Human data are collected with informed consent, and public datasets are used under their original terms. Case-study participants are anonymized (Case A and Case B), and raw recordings are not publicly shared.
 
