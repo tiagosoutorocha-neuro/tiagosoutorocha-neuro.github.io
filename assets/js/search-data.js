@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "Research updates, events and awards from my work at NUTES / NeuroComp.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -384,18 +391,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-launch-of-the-cidade-madura-extension-project-cognitive-monitoring-of-older-adults",
+          title: 'Launch of the Cidade Madura extension project: cognitive monitoring of older adults',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/cidade-madura-launch/";
+            },},{id: "news-our-scoping-review-was-accepted-in-cognitive-computation",
+          title: 'Our scoping review was accepted in Cognitive Computation',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/cognitive-computation-acceptance/";
+            },},{id: "news-1st-and-2nd-place-for-best-work-at-the-17th-ccnec",
+          title: '1st and 2nd place for Best Work at the 17th CCNEC',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/ccnec-17-awards/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
