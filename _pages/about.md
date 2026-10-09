@@ -330,8 +330,12 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     <div class="col-sm-4 mb-4">
       <div class="card h-100 shadow-sm text-center" style="padding: 1.5rem 1rem;">
         <img src="assets/img/neuraskills_logo.webp" style="height: 55px; object-fit: contain; margin-bottom: 15px;" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2966/2966327.png'" alt="Neura Skills">
-        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">EEG/ERP Analysis with Python and MNE</h6>
-        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>Neura Skills</p>
+        <h6 style="font-weight: bold; color: #4682B4; margin-bottom: 1rem;">
+          <a href="https://ude.my/UC-5c29f19a-3ee4-491f-bc54-b8540abf32ab" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            EEG/ERP Analysis with Python and MNE
+          </a>
+        </h6>
+        <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;"><b>Institution:</b><br>Neura Skills (Udemy)</p>
       </div>
     </div>
 
