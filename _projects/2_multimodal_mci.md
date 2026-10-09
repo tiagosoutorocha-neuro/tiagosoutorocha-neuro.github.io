@@ -29,20 +29,24 @@ This project builds a **multimodal classification model of MCI** that combines:
 
 Before starting our own data collection, we carried out four studies, presented at the **17th CCNEC (September 2026)**, to test methods on existing data and define the collection protocol. Each one informed a part of the project.
 
-**1. Which EEG protocol and markers to use.** _Electroencephalography in the Detection of Alzheimer's Disease and Mild Cognitive Impairment: An Integrative Review._ The review mapped how EEG data are acquired, processed and analyzed to detect Alzheimer's disease (AD) and MCI.
+**1. Which EEG protocol and markers to use.** _Electroencephalography in the Detection of Alzheimer's Disease and Mild Cognitive Impairment: An Integrative Review._ EEG is a strong candidate for early and accessible detection of Alzheimer's disease (AD) and MCI because it is low-cost, portable and non-invasive. Methodological heterogeneity, however, makes studies hard to compare. The review mapped how EEG data are acquired, preprocessed and analyzed to predict AD and MCI: acquisition parameters, band and connectivity patterns, preprocessing strategies and machine learning models.
 
-- **Most common protocol:** resting state with eyes closed, 19–32 electrodes, 250–512 Hz sampling, and screening with MMSE or MoCA.
-- **Main result:** resting-state EEG, spectral analysis and cognitive screening together discriminate controls, MCI and AD, with **theta-band slowing as the earliest marker**.
-- **Main obstacle:** protocols vary a lot between studies, which limits direct comparison and reproducibility.
+- **Method:** search in PubMed and IEEE Xplore for peer-reviewed empirical studies in English (2015–2025) comparing controls, MCI and AD in humans, excluding simulated data, reviews, protocols and studies without a clear method. **67 studies** were included.
+- **Acquisition:** resting state with eyes closed predominated, with 19–32 electrodes, 250–512 Hz sampling, the 10–20 system, and screening with MMSE or MoCA. P4, P3 and F7 were the most used channels, with analyses concentrated on frontal, parietal and occipital regions.
+- **Preprocessing:** the standard combined band-pass filtering, a notch filter and ICA.
+- **Neurophysiological findings:** **theta was the earliest change**. Disease progression showed increased delta and theta, decreased alpha and beta, and **reduced fronto-temporal connectivity**. Hippocampal atrophy was reflected in temporal slowing and reduced signal complexity.
+- **Conclusion:** resting-state, eyes-closed EEG combined with spectral analysis, connectivity metrics and standardized cognitive instruments discriminates controls, MCI and AD well. Clinical adoption still requires rigorous standardization and transparent protocols.
 
-This shaped our protocol: resting-state, eyes-closed EEG paired with MoCA screening.
+This defined our collection protocol (resting-state, eyes-closed EEG with MoCA screening) and the markers we look for: theta slowing, the band shifts and fronto-temporal connectivity.
 
-**2. Can an interpretable model detect Alzheimer's from EEG?** _Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography._ **Best Work Award, 2nd place.**
+**2. Can an interpretable model detect Alzheimer's from EEG?** _Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography._ **Best Work Award, 2nd place.** EEG combined with machine learning has high potential for AD screening, but clinical adoption runs into the "black box" problem: algorithms classify patients without explaining their criteria. Explainable models are needed to make sure the model relies on real neurophysiological changes, not on signal noise.
 
-- **Data:** resting-state EEG from the public **BrainLat** dataset (10 min, eyes closed, 128 channels, 512 Hz), Alzheimer's vs. healthy controls.
-- **Pipeline:** 4-s epochs, 1–45 Hz band-pass filter and standardization. The features were relative band power, spectral ratios (θ/α, θ/β) and spectral entropy.
-- **Model:** a machine learning classifier with leave-one-subject-out validation, explained with **SHAP**.
-- **Results:** the most important features were those linked to **EEG slowing** (relative theta power and the θ/α and θ/β ratios), and the topographies confirmed the spectral slowing in AD. The optimized classifier reached **70% discriminative capacity**. The predicted probability of AD correlated with MoCA scores (p = 0.010), so the model's output was clinically coherent.
+- **Goal:** a model that separates AD from healthy controls, plus interpretability metrics to show which EEG spectral signatures drive the classification.
+- **Data:** resting-state EEG from the public **BrainLat** dataset (n = 90; 10 min, eyes closed, 128 channels, 512 Hz).
+- **Pipeline:** band-pass filtering, 4-s epochs and within-subject normalization. Classic markers from the literature fed the classifiers: relative band power, spectral ratios and spectral entropy.
+- **Validation:** subject-wise (leave-one-subject-out) rather than group-based, to avoid bias and data leakage. The best model was then dissected with **SHAP**, which quantifies each biomarker's weight in the final decision.
+- **Results:** the optimized classifier reached **70% discriminative capacity**. The model recognized AD from classic **cortical slowing**. Increased relative theta power was the strongest single predictor, followed by the θ/α and θ/β ratios. The model's estimated probability of AD **correlated with decline on cognitive screening (MoCA, p = 0.010)**.
+- **Conclusion:** the model distinguished healthy participants from those with Alzheimer's and learned the dementia slowing signature on its own. Explainable AI strengthens the clinical relevance of spectral biomarkers and gives biological reliability to future models for assisted diagnosis.
 
 This study is the basis of the explainable pipeline we will apply to our own EEG data.
 
@@ -55,13 +59,15 @@ This study is the basis of the explainable pipeline we will apply to our own EEG
 
 Traditional markers are not necessarily the most discriminative, and brain-network and nonlinear dynamics play a central role in Alzheimer's disease. The gain from combining categories is the same logic behind this project: analyze the brain, and the person, as an integrated system.
 
-**4. Why psychological assessment belongs in the model.** _Sleep, Depressive Symptoms, and Cognitive Performance in Older Adults: A Possible Mediation Pathway._
+**4. Why psychological assessment belongs in the model.** _Sleep, Depressive Symptoms, and Cognitive Performance in Older Adults: A Possible Mediation Pathway._ Neuropsychiatric symptoms such as depression, and clinical signs such as sleep changes, can appear in the pre-dementia period before cognitive decline becomes evident. This suggests a pathway linking mental health and cognition in older adults.
 
-- **Design:** cross-sectional secondary analysis of the public **RESILIENT** dataset, with adults aged 60 or older (n = 54–69).
-- **Measures:** sleep efficiency (physiological monitoring mattress), depressive symptoms (PHQ-9) and cognition (ACE-III), analyzed with partial Spearman correlations controlled for age and sex.
-- **Results:** sleep and cognition were **not** directly associated (ρ = 0.12, p = 0.19). **Depressive symptoms were related to both** poorer sleep (ρ = −0.28, p = 0.01) and poorer cognitive performance (ρ = −0.33, p = 0.007).
+- **Goal:** test whether sleep efficiency and depressive symptoms are associated with cognitive performance. The pre-specified hypotheses were that worse sleep and more severe depressive symptoms relate to worse cognition.
+- **Design:** observational, analytical, cross-sectional study, a secondary analysis of the public **RESILIENT** dataset (73 older adults with multiple chronic conditions, approved by the London–Surrey Borders Research Ethics Committee). It included participants aged 60 or older with complete data, for samples of 54 to 69 depending on the association tested.
+- **Measures:** sleep efficiency (physiological monitoring mattress), depressive symptoms (Patient Health Questionnaire, PHQ-9) and cognitive performance (Addenbrooke's Cognitive Examination, ACE-III), analyzed with partial Spearman correlations controlled for age and sex.
+- **Results:** sleep efficiency and cognition were **not** significantly correlated (ρ = 0.12, p = 0.19, N = 54), possibly because of the small sample. **Depressive symptoms correlated negatively with both** sleep efficiency (ρ = −0.28, p = 0.01, N = 69) and cognitive performance (ρ = −0.33, p = 0.007, N = 54). Together, these results suggest that sleep may relate to cognition indirectly, rather than acting on its own.
+- **Conclusion:** depressive symptoms may be a relevant target for early prevention of cognitive decline. Longitudinal studies with larger samples are needed to confirm this possible mediation pathway.
 
-This supported including emotional symptoms (DASS-21) and sleep and context questions in the anamnesis, so that mood is modeled together with cognition.
+This supported including emotional symptoms (DASS-21) and sleep and context questions in the anamnesis, so that mood is modeled together with cognition. Following people over two assessment cycles also responds to the call for longitudinal data.
 
 <figure class="project-figure">
   <img src="{{ '/assets/img/project_mci.jpg' | relative_url }}" alt="Data collection stages: EEG and HRV recording, cognitive testing and anamnesis" data-zoomable>
