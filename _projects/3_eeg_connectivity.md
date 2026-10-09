@@ -192,12 +192,6 @@ I compared two individual recordings: **Case A**, the participant with the **hig
 - **Brain–body:** EEG–HRV coupling from simultaneous recordings.
 - **Open science:** reproducible MNE-Python pipelines and tutorials.
 
-#### Affiliation and contact
-
-I develop this research line as part of my work in the [NeuroComp](https://github.com/neurocomp-nutes) research group at the Center for Strategic Health Technologies ([NUTES](https://nutes.uepb.edu.br/#)), State University of Paraíba (UEPB), Campina Grande, Brazil, together with the colleagues who co-author each study.
-
-Interested in collaborating, or in applying these methods to your data? Write to me at [tiago.r@aluno.uepb.edu.br](mailto:tiago.r@aluno.uepb.edu.br).
-
 **Ethics and data.** Human data are collected with informed consent, and public datasets are used under their original terms. Case-study participants are anonymized (Case A and Case B), and raw recordings are not publicly shared.
 
 <h4 id="references">References</h4>
