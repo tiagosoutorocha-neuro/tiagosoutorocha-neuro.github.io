@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-news",
-          title: "news",
-          description: "Research updates, events and awards from my work at NUTES / NeuroComp.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -391,21 +384,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-launch-of-the-cidade-madura-extension-project-cognitive-monitoring-of-older-adults",
-          title: 'Launch of the Cidade Madura extension project: cognitive monitoring of older adults',
+            },},{id: "news-launch-of-the-cidade-madura-extension-project",
+          title: 'Launch of the Cidade Madura extension project',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/cidade-madura-launch/";
-            },},{id: "news-our-scoping-review-was-accepted-in-cognitive-computation",
-          title: 'Our scoping review was accepted in Cognitive Computation',
+              window.location.href = "/news/2026-08-24-cidade-madura/";
+            },},{id: "news-scoping-review-accepted-in-cognitive-computation",
+          title: 'Scoping review accepted in Cognitive Computation',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/cognitive-computation-acceptance/";
+              window.location.href = "/news/2026-09-08-cognitive-computation/";
             },},{id: "news-1st-and-2nd-place-for-best-work-at-the-17th-ccnec",
           title: '1st and 2nd place for Best Work at the 17th CCNEC',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/ccnec-17-awards/";
+              window.location.href = "/news/2026-09-17-ccnec-17-awards/";
+            },},{id: "news-neuroseizure-eeg-registered-as-software-at-inpi",
+          title: 'NeuroSeizure-EEG registered as software at INPI',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-06-software-registration/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
