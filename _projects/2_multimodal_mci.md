@@ -46,7 +46,14 @@ This shaped our protocol: resting-state, eyes-closed EEG paired with MoCA screen
 
 This study is the basis of the explainable pipeline we will apply to our own EEG data.
 
-**3. Which EEG biomarkers matter beyond spectral power?** _Beyond Spectral Power: A Comparative Study of EEG Biomarker Categories Using Machine Learning for Alzheimer's Disease Screening._ The study compared different categories of EEG biomarkers for machine learning-based AD screening, to see what each category adds beyond spectral power. It guides which feature families to extract in the multimodal model.
+**3. Which EEG biomarkers matter beyond spectral power?** _Beyond Spectral Power: A Comparative Study of EEG Biomarker Categories Using Machine Learning for Alzheimer's Disease Screening._ The literature offers dozens of EEG biomarkers of slowing, connectivity or complexity. Most studies compare classifiers with different methods, so it was unclear which physiological categories really discriminate best under identical conditions.
+
+- **Data:** 65 participants (Alzheimer's patients and controls), with features extracted in five frequency bands.
+- **Six biomarker categories:** spectral power, slowing (global mean frequency), complexity (Lempel-Ziv), connectivity (phase-amplitude coupling), systemic oscillations (Kuramoto order) and functional disorganization (mutual information).
+- **Models:** each category was tested alone and in a multivariate model, using random forest, support vector machine and XGBoost.
+- **Results:** **connectivity (phase-amplitude coupling) and complexity (Lempel-Ziv)** performed best alone, both at **75%**. The classic markers, slowing and spectral power, performed worst (56–70%). The **multivariate signature combining all categories reached 81%**, outperforming every single category.
+
+Traditional markers are not necessarily the most discriminative, and brain-network and nonlinear dynamics play a central role in Alzheimer's disease. The gain from combining categories is the same logic behind this project: analyze the brain, and the person, as an integrated system.
 
 **4. Why psychological assessment belongs in the model.** _Sleep, Depressive Symptoms, and Cognitive Performance in Older Adults: A Possible Mediation Pathway._
 
@@ -63,7 +70,7 @@ This supported including emotional symptoms (DASS-21) and sleep and context ques
 
 #### Planned approach
 
-- Extract features from each modality: EEG spectral and connectivity measures (building on the slowing markers from studies 1–3), HRV time-domain, frequency-domain and nonlinear indices, and cognitive and psychological scores.
+- Extract features from each modality: EEG spectral and slowing markers (studies 1–2) together with connectivity and complexity measures (study 3), HRV time-domain, frequency-domain and nonlinear indices, and cognitive and psychological scores.
 - Combine the modalities through multimodal fusion and compare them with single-modality models.
 - Train machine learning classifiers with **nested cross-validation** to avoid overly optimistic estimates.
 - Use **explainability (SHAP)** to show which features and modalities drive each prediction, and check the outputs against cognitive performance, as in study 2.
@@ -77,7 +84,7 @@ Data come from the **[Cidade Madura]({{ '/news/cidade-madura-launch/' | relative
 Preparatory studies (17th CCNEC, 2026):
 
 - **Explainable Machine Learning for Alzheimer's Disease Detection via Resting-State Electroencephalography**. **Rocha, T. S.**, Gouveia, G. S. M., Oliveira, S. I. A., Brito, A. M., Souto, S. F. _Best Work Award, 2nd place._ [Poster (PDF)]({{ '/assets/pdf/poster_rocha2026xai.pdf' | relative_url }}) · [Code (GitHub)](https://github.com/tiagosoutorocha-neuro/BrainLat_dataset_Alzheimer_EEG)
-- **Beyond Spectral Power: A Comparative Study of EEG Biomarker Categories Using Machine Learning for Alzheimer's Disease Screening**. Oliveira, S. I. A., Souto, S. F., **Rocha, T. S.**, Gouveia, G. S. M., Paixão, L. M. [Publications page]({{ '/publications/' | relative_url }})
+- **Beyond Spectral Power: A Comparative Study of EEG Biomarker Categories Using Machine Learning for Alzheimer's Disease Screening**. Oliveira, S. I. A., Souto, S. F., **Rocha, T. S.**, Gouveia, G. S. M., Paixão, L. M. [Poster (PDF)]({{ '/assets/pdf/poster_oliveira2026spectral.pdf' | relative_url }}) · [Code (GitHub)](https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis)
 - **Electroencephalography in the Detection of Alzheimer's Disease and Mild Cognitive Impairment: An Integrative Review**. Alves, J. P. P., Brito, A. M., **Rocha, T. S.**, Oliveira, S. I. A., Souto, S. F. [Poster (PDF)]({{ '/assets/pdf/poster_alves2026eegreview.pdf' | relative_url }})
 - **Sleep, Depressive Symptoms, and Cognitive Performance in Older Adults: A Possible Mediation Pathway**. Brito, A. M., **Rocha, T. S.**, Alves, J. P. P., Souto, S. F., Santana, A. N. [Poster (PDF)]({{ '/assets/pdf/poster_brito2026sleep.pdf' | relative_url }})
 

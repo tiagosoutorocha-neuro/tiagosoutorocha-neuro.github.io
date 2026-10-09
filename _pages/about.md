@@ -123,6 +123,7 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <div style="margin-top: 8px;">
         <span class="award-pill award-pill-silver"><i class="fa-solid fa-trophy"></i> 2nd Place · Best Work Award</span>
         <a href="assets/pdf/poster_rocha2026xai.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+        <a href="https://github.com/tiagosoutorocha-neuro/BrainLat_dataset_Alzheimer_EEG" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">CODE</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
@@ -155,7 +156,8 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
       <div style="font-size: 1rem; color: var(--global-text-color);">Beyond Spectral Power: A Comparative Study of EEG Biomarker Categories Using Machine Learning for Alzheimer's Disease Screening.</div>
       <div style="font-size: 0.9rem; color: gray;"><i>17th CCNEC Conference</i> (2026)</div>
       <div style="margin-top: 8px;">
-        <!-- Add the poster here when available: <a href="assets/pdf/poster_oliveira2026spectral.pdf" ...>POSTER</a> -->
+        <a href="assets/pdf/poster_oliveira2026spectral.pdf" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">POSTER</a>
+        <a href="https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">CODE</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">
