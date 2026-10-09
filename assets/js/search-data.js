@@ -416,7 +416,7 @@ ninja.data = [{
               window.location.href = "/projects/multimodal-mci-classification/";
             },},{id: "projects-eeg-brain-connectivity",
           title: 'EEG Brain Connectivity',
-          description: "How brain networks measured with EEG reorganize with aging, cognitive performance and psychological symptoms.",
+          description: "A research line on how brain regions communicate, measured with EEG, from connectivity methods to cognition, aging and disease.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eeg-brain-connectivity/";
             },},{id: "teachings-data-science-fundamentals",
