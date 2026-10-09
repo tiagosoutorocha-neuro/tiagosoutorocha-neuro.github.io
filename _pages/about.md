@@ -19,12 +19,6 @@ profile:
 
 selected_papers: false
 social: false
-
-# Latest news on the home page (rendered inside the page body, see "Latest News" below)
-announcements:
-  enabled: false
-  scrollable: false
-  limit: 3
 ---
 
 I am an undergraduate Psychology student at the State University of Paraíba (UEPB) and a researcher at the Center for Strategic Health Technologies (NUTES), where I assist in leading the NeuroComp research line on **Memory Applied to Aging**. Bridging cognitive psychology and computational neuroscience, I currently **combine EEG and machine learning to investigate predictive markers for Alzheimer and MCI**. As a long-term goal, I aim to develop neuroplausible memory decoding models that translate complex neural connectivity into clinical insights for aging.
@@ -60,14 +54,6 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
         <td style="vertical-align: middle; border: none;"><b>Undergraduate Researcher</b><br><span style="font-size: 0.9rem;">NUTES / NeuroComp Research Group</span></td>
       </tr>
     </table>
-  </div>
-</div>
-
-<div style="margin-top: 3.5rem;">
-  <h3 style="text-align: center; margin-bottom: 1.5rem;">Latest News</h3>
-  {% include news.liquid limit=true %}
-  <div style="text-align: right;">
-    <a href="{{ '/news/' | relative_url }}" style="font-size: 0.9rem;">All news and photos &rarr;</a>
   </div>
 </div>
 
@@ -216,9 +202,20 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
   <a href="{{ '/publications/' | relative_url }}" style="font-size: 0.9rem;">All publications &rarr;</a>
 </div>
 
-<div style="margin-top: 4rem;">
+<div style="margin-top: 4rem;" id="software">
+  <h3 style="text-align: center; margin-bottom: 2rem;">Software Registrations</h3>
+  {% include software.liquid %}
+</div>
+
+<div style="margin-top: 4rem;" id="awards">
   <h3 style="text-align: center; margin-bottom: 2rem;">Awards &amp; Honors</h3>
   {% include awards.liquid %}
+</div>
+
+<div style="margin-top: 4rem;" id="news">
+  <h3 style="text-align: center; margin-bottom: 2rem;">News</h3>
+  {% include news_carousel.liquid %}
+  {% include news_cards.liquid %}
 </div>
 
 <div style="margin-top: 4rem;">

@@ -1,0 +1,16 @@
+# Software registrations shown on the home page (newest first).
+# To add one, copy a block and edit it.
+#   certificate: PDF file inside assets/pdf/ (renders a CERTIFICATE button)
+#   code:        optional repository link (renders a CODE button)
+
+- name: "NeuroSeizure-EEG"
+  description: "Software for pre-ictal period analysis to predict epileptic seizures from electroencephalography"
+  original_title: "NeuroSeizure-EEG - Software de Análise de Período Pré-ictal para Predição de Crises Epilépticas através de Eletroencefalograma"
+  registry: "INPI"
+  registry_full: "Brazilian National Institute of Industrial Property (INPI)"
+  number: "BR512026008531-4"
+  issued: 2026-10-06
+  holder: "State University of Paraíba (UEPB)"
+  language: "Python"
+  authors: "Souto, S.F., Dantas, K.V.O., Figueiredo Neto, J.A., Paixão, L.M., Valério, D.P.S., Rocha, T.S."
+  certificate: software_registration_BR512026008531-4.pdf

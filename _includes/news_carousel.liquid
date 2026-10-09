@@ -1,5 +1,6 @@
 <!--
   Photo carousel built from the `images` list of every news item in _news/ (newest first).
+  Each slide links to its news card (anchor #news-YYYY-MM-DD, see news_cards.liquid).
   Optional parameter: max (maximum number of slides), e.g. pass max=6 when including this file.
 -->
 {% assign carousel_news = site.news | reverse %}
@@ -34,9 +35,10 @@
         {% for img in item.images %}
           {% if idx < slide_count %}
             {% assign img_url = img.src | prepend: '/assets/img/' | relative_url %}
+            {% assign news_anchor = item.date | date: '%Y-%m-%d' | prepend: '#news-' %}
             <div class="carousel-item{% if idx == 0 %} active{% endif %}">
               <img class="news-carousel-bg" src="{{ img_url }}" alt="" aria-hidden="true" loading="lazy">
-              <a href="{{ item.url | relative_url }}" class="news-carousel-link">
+              <a href="{{ news_anchor }}" class="news-carousel-link">
                 <img
                   class="news-carousel-img"
                   src="{{ img_url }}"
@@ -48,7 +50,7 @@
               </a>
               <div class="news-carousel-caption">
                 <span class="news-carousel-date">{{ item.date | date: '%b %d, %Y' }}</span>
-                <a href="{{ item.url | relative_url }}" class="news-carousel-title">{{ item.title }}</a>
+                <a href="{{ news_anchor }}" class="news-carousel-title">{{ item.title }}</a>
                 {% if img.caption %}
                   <p>{{ img.caption }}</p>
                 {% endif %}

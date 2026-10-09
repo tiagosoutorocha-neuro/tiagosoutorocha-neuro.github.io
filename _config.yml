@@ -155,7 +155,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false # news are shown only on the home page (News section), no separate pages
   projects:
     output: true
   teachings:

@@ -24,7 +24,10 @@
                 <span>{{ award.detail }}</span>
               {%- endif %}
               {% if award.url %}
-                <a href="{{ award.url | relative_url }}">Photos &amp; details &rarr;</a>
+                {% assign first_char = award.url | slice: 0 %}
+                <a href="{% if first_char == '#' or award.url contains '://' %}{{ award.url }}{% else %}{{ award.url | relative_url }}{% endif %}">
+                  Photos &amp; details &rarr;
+                </a>
               {% endif %}
             </div>
           </div>

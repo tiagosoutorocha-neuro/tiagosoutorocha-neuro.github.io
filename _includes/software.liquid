@@ -1,0 +1,48 @@
+<!-- Software registrations (home page). Data lives in _data/software.yml -->
+{% for sw in site.data.software %}
+  <div class="row software-row" style="margin-bottom: 2rem; align-items: center;">
+    <div class="col-sm-2 text-center mb-3 mb-sm-0">
+      <div class="registry-badge" title="{{ sw.registry_full | escape }}">
+        <i class="fa-solid fa-laptop-code"></i><br>
+        {{ sw.registry }}
+      </div>
+    </div>
+    <div class="col-sm-7">
+      <div style="font-size: 1rem; color: var(--global-text-color);">
+        <b>{{ sw.name }}</b>: {{ sw.description }}.
+      </div>
+      <div style="font-size: 0.9rem; color: gray;">
+        Computer program registration <b>{{ sw.number }}</b> · <i>{{ sw.registry_full }}</i> ({{ sw.issued | date: '%Y' }})
+      </div>
+      <div style="font-size: 0.8rem; color: gray;">
+        Holder: {{ sw.holder -}}
+        {%- if sw.language %} · Language: {{ sw.language }}{% endif %}
+      </div>
+      <div style="margin-top: 8px;">
+        {% if sw.certificate %}
+          <a
+            href="{{ sw.certificate | prepend: '/assets/pdf/' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-sm btn-outline-dark"
+            style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;"
+            >CERTIFICATE (PDF)</a
+          >
+        {% endif %}
+        {% if sw.code %}
+          <a
+            href="{{ sw.code }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-sm btn-outline-dark"
+            style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;"
+            >CODE</a
+          >
+        {% endif %}
+      </div>
+    </div>
+    <div class="col-sm-3 software-authors" style="font-size: 0.95rem; color: #4682B4;">
+      {{ sw.authors | replace: 'Rocha, T.S.', '<b>Rocha, T.S.</b>' }}
+    </div>
+  </div>
+{% endfor %}
