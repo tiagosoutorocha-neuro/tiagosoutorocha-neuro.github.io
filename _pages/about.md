@@ -219,9 +219,9 @@ I am an undergraduate Psychology student at the State University of Paraíba (UE
     </div>
     <div class="col-sm-7">
       <div style="font-size: 1rem; color: var(--global-text-color);">Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review.</div>
-      <div style="font-size: 0.9rem; color: gray;"><i>Cognitive Computation</i> (2026) · accepted, in press</div>
+      <div style="font-size: 0.9rem; color: gray;"><i>Cognitive Computation</i> 18, 128 (2026) · open access</div>
       <div style="margin-top: 8px;">
-        <a href="https://doi.org/10.31234/osf.io/rdeub_v1" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PREPRINT (DOI)</a>
+        <a href="https://doi.org/10.1007/s12559-026-10658-8" target="_blank" class="btn btn-sm btn-outline-dark" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">PAPER</a>
       </div>
     </div>
     <div class="col-sm-3" style="font-size: 0.95rem; color: #4682B4;">

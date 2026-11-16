@@ -23,6 +23,6 @@ Our article **"Understanding Advances in Computational Cognitive Neuroscience Ov
 
 The review maps a decade of computational cognitive neuroscience (CCN), covering 2015 to 2025. Following JBI methodology and PRISMA-ScR, it screened more than 3,300 records and included **104 studies**. CCN research over this period was mostly theoretical, focused on memory, learning, language and decision-making, and relied mainly on recurrent neural networks and Bayesian models. The work grew out of the scoping review we started in March 2025, whose first results we presented at CCNEC 2025. [More about the project]({{ '/projects/ccn-scoping-review/' | relative_url }}).
 
-The article is now in press. Until the final version comes out, the preprint is available on [PsyArXiv](https://doi.org/10.31234/osf.io/rdeub_v1).
+**Update:** the article was published, open access, on November 10, 2026. [Read the news]({{ '/news/cognitive-computation-published/' | relative_url }}) or go straight to the [article](https://doi.org/10.1007/s12559-026-10658-8). The preprint remains available on [PsyArXiv](https://doi.org/10.31234/osf.io/rdeub_v1).
 
 **Authors:** **Rocha, T. S.**, Souto, S. F., Brito, A. M., Barbosa, T. P., Alves, J. P. P., Lins, M. V. S., Maciel, E. Q., Paixão, L. M.

@@ -10,7 +10,7 @@ permalink: /projects/ccn-scoping-review/
 
 <div class="project-meta">
   <span><i class="fa-solid fa-calendar"></i> March 2025 – Nov 2025</span>
-  <span><i class="fa-solid fa-circle-check"></i> Completed · accepted in <i>Cognitive Computation</i> (Springer Nature)</span>
+  <span><i class="fa-solid fa-circle-check"></i> Completed · published in <i>Cognitive Computation</i> (Springer Nature), open access</span>
   <span><i class="fa-solid fa-book-open"></i> 104 studies · 2015–2025</span>
 </div>
 
@@ -88,7 +88,7 @@ The review identifies **neurobiological plausibility** as a central challenge fo
 
 #### Outputs
 
-- **Article accepted in _Cognitive Computation_** (Springer Nature), September 2026. [Preprint (PsyArXiv)](https://doi.org/10.31234/osf.io/rdeub_v1)
+- **Article published in _Cognitive Computation_** (Springer Nature), volume 18, article 128, November 2026. Open access. [Read the article](https://doi.org/10.1007/s12559-026-10658-8) · [Preprint (PsyArXiv)](https://doi.org/10.31234/osf.io/rdeub_v1)
 - Presented at **CCNEC 2025**: [Advances in Computational Cognitive Neuroscience: A Review](https://www.even3.com.br/anais/ccnec2025/1268033-compreendendo-os-avancos-na-neurociencia-cognitiva-computacional-nos-ultimos-10-anos--uma-revisao-de-escopo/)
 
 **Authors:** **Rocha, T. S.**, Souto, S. F., Brito, A. M., Barbosa, T. P., Alves, J. P. P., Lins, M. V. S., Maciel, E. Q., Paixão, L. M.
