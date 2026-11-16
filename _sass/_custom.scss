@@ -58,7 +58,9 @@
     p {
       margin: 0.25rem 0 0;
       font-size: 0.85rem;
-      color: rgba(255, 255, 255, 0.92);
+      // plain #fff + opacity: the Jekyll build turns rgba(255,255,255,a) into an invalid hsla()
+      color: #fff;
+      opacity: 0.92;
     }
   }
 
@@ -67,7 +69,8 @@
     font-size: 0.75rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.85);
+    color: #fff;
+    opacity: 0.85;
   }
 
   .news-carousel-title {
