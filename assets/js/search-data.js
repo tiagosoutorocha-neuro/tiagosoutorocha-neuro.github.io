@@ -404,6 +404,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/neuroseizure-eeg-software-registration/";
+            },},{id: "news-scoping-review-published-in-cognitive-computation",
+          title: 'Scoping review published in Cognitive Computation',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/cognitive-computation-published/";
             },},{id: "projects-ccn-scoping-review",
           title: 'CCN Scoping Review',
           description: "Mapping a decade of advances, paradigm shifts and new frontiers in computational cognitive neuroscience.",
